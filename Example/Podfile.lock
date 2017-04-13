@@ -1,0 +1,16 @@
+PODS:
+  - GMStoryVideoPlayer (0.1.0)
+
+DEPENDENCIES:
+  - GMStoryVideoPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  GMStoryVideoPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GMStoryVideoPlayer: 7c8d36bd424522bc7b320d9cb941ee0587e81784
+
+PODFILE CHECKSUM: 8ff0a4760f471abdf9b4e0b397e028563c8ac098
+
+COCOAPODS: 1.2.0

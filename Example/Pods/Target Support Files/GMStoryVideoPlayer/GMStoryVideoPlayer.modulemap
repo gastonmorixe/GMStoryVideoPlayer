@@ -1,0 +1,6 @@
+framework module GMStoryVideoPlayer {
+  umbrella header "GMStoryVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

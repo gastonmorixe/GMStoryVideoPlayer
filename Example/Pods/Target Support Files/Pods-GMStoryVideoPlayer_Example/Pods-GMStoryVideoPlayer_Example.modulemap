@@ -1,0 +1,6 @@
+framework module Pods_GMStoryVideoPlayer_Example {
+  umbrella header "Pods-GMStoryVideoPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
