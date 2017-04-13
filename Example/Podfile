@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GMStoryVideoPlayer_Example' do
+  pod 'GMStoryVideoPlayer', :path => '../'
+
+  target 'GMStoryVideoPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
