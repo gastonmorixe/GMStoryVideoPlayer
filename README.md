@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/GMStoryVideoPlayer.svg?style=flat)](http://cocoapods.org/pods/GMStoryVideoPlayer)
 [![Platform](https://img.shields.io/cocoapods/p/GMStoryVideoPlayer.svg?style=flat)](http://cocoapods.org/pods/GMStoryVideoPlayer)
 
+![Demo GIF](https://media.giphy.com/media/3o7btNOkaqfBEgXnfq/giphy.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
