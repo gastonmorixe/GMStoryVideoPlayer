@@ -17,7 +17,9 @@ Features!
 
 It is based on raw AVPlayer. 
 GMStoryViewController has 3 video players (GMVideoViewController), it loads the current video and smartly preloads the next and previous video too. 
+
 Note: For now to get best buffering and instant play at tap time, the videos while preloading are also being played looping, just not shown. As soon as the video should be shown we hide the other 2, seek that to time zero and show it. Alternatives welcome.
+
 Warning: You might want to choose to disable playing all the videos while controller not being shown (the reason is to get better buffering)
 
 ## Example
