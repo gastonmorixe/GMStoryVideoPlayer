@@ -1,10 +1,17 @@
 # GMStoryVideoPlayer
 
-[![Version](https://img.shields.io/cocoapods/v/GMStoryVideoPlayer.svg?style=flat)](http://cocoapods.org/pods/GMStoryVideoPlayer)
-[![License](https://img.shields.io/cocoapods/l/GMStoryVideoPlayer.svg?style=flat)](http://cocoapods.org/pods/GMStoryVideoPlayer)
-[![Platform](https://img.shields.io/cocoapods/p/GMStoryVideoPlayer.svg?style=flat)](http://cocoapods.org/pods/GMStoryVideoPlayer)
+iOS Instagram/Snapchat Stories Video Player with Queue/Playlist like!  (ObjC) 
 
-![Demo GIF](https://media.giphy.com/media/3o7btNOkaqfBEgXnfq/giphy.gif)
+Note: This is a WIP, help me improve it!
+
+![Demo GIF](https://raw.githubusercontent.com/gaston23/GMStoryVideoPlayer/master/Example/3o7btNOkaqfBEgXnfq.gif)
+
+Features!
++ Tap to next or prev video in the queue/playlist
++ Loopeable playlist (smart algorithm!)
++ Fast preload of both next and prev videos
++ Thumbnails support
++ Video and Thumbs caching
 
 ## Example
 
