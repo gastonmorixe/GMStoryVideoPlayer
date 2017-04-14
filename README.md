@@ -1,6 +1,5 @@
 # GMStoryVideoPlayer
 
-[![CI Status](http://img.shields.io/travis/Gaston Morixe/GMStoryVideoPlayer.svg?style=flat)](https://travis-ci.org/Gaston Morixe/GMStoryVideoPlayer)
 [![Version](https://img.shields.io/cocoapods/v/GMStoryVideoPlayer.svg?style=flat)](http://cocoapods.org/pods/GMStoryVideoPlayer)
 [![License](https://img.shields.io/cocoapods/l/GMStoryVideoPlayer.svg?style=flat)](http://cocoapods.org/pods/GMStoryVideoPlayer)
 [![Platform](https://img.shields.io/cocoapods/p/GMStoryVideoPlayer.svg?style=flat)](http://cocoapods.org/pods/GMStoryVideoPlayer)
@@ -10,6 +9,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+xCode and iOS simulator or Device
 
 ## Installation
 

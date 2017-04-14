@@ -1,7 +1,7 @@
 {
   "name": "GMStoryVideoPlayer",
   "version": "0.1.0",
-  "summary": "A short description of GMStoryVideoPlayer.",
+  "summary": "iOS Obj-C Story Video Player like Instagram and Snapchat with back, forth, loop and video caching",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Gaston Morixe/GMStoryVideoPlayer",
   "license": {
@@ -16,7 +16,18 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "GMStoryVideoPlayer/Classes/**/*"
+  "source_files": "GMStoryVideoPlayer/Classes/**/*",
+  "dependencies": {
+    "VIMediaCache": [
+
+    ],
+    "SpinKit": [
+
+    ],
+    "SDWebImage": [
+
+    ]
+  }
 }

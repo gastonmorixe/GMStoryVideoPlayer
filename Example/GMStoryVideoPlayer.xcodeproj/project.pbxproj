@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D150AB51EA02F2B0005AA94 /* GMAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D150AB31EA02F2B0005AA94 /* GMAppViewController.m */; };
+		3D150AB81EA048C40005AA94 /* GMImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D150AB71EA048C40005AA94 /* GMImageButton.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* GMAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* GMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GMViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8CEB29BCF1296D1DA5D547D3 /* Pods_GMStoryVideoPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F7AC2D95A310D52C06C981 /* Pods_GMStoryVideoPlayer_Tests.framework */; };
 		F8AD9CD47276E97ADEB539B5 /* Pods_GMStoryVideoPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80E5017BDE7CDC42A497606 /* Pods_GMStoryVideoPlayer_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E3BE58C53E47F026741DE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04E3BE58C53E47F026741DE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		33F7AC2D95A310D52C06C981 /* Pods_GMStoryVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMStoryVideoPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D150AB31EA02F2B0005AA94 /* GMAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAppViewController.m; sourceTree = "<group>"; };
+		3D150AB41EA02F2B0005AA94 /* GMAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAppViewController.h; sourceTree = "<group>"; };
+		3D150AB61EA048C40005AA94 /* GMImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMImageButton.h; sourceTree = "<group>"; };
+		3D150AB71EA048C40005AA94 /* GMImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMImageButton.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GMStoryVideoPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMStoryVideoPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,8 +53,6 @@
 		6003F59B195388D20070C39A /* GMStoryVideoPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GMStoryVideoPlayer-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* GMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* GMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* GMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* GMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* GMStoryVideoPlayer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMStoryVideoPlayer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,12 +63,10 @@
 		615CC7C7C0B86F46DE66CD7B /* Pods-GMStoryVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMStoryVideoPlayer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMStoryVideoPlayer_Example/Pods-GMStoryVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9421943D169FA2BA7E8B3E32 /* Pods-GMStoryVideoPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMStoryVideoPlayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMStoryVideoPlayer_Tests/Pods-GMStoryVideoPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D138FFB131597002B94E6BF /* GMStoryVideoPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GMStoryVideoPlayer.podspec; path = ../GMStoryVideoPlayer.podspec; sourceTree = "<group>"; };
-		A238B7D37EA53311F254BF09 /* Pods-GMStoryVideoPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMStoryVideoPlayer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMStoryVideoPlayer_Tests/Pods-GMStoryVideoPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D138FFB131597002B94E6BF /* GMStoryVideoPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GMStoryVideoPlayer.podspec; path = ../GMStoryVideoPlayer.podspec; sourceTree = "<group>"; };
 		C80E5017BDE7CDC42A497606 /* Pods_GMStoryVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMStoryVideoPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEAC9F835216BAB4221503D /* Pods-GMStoryVideoPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMStoryVideoPlayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMStoryVideoPlayer_Example/Pods-GMStoryVideoPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D654E28917971619C45A316E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D654E28917971619C45A316E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				8CEB29BCF1296D1DA5D547D3 /* Pods_GMStoryVideoPlayer_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,11 +131,13 @@
 		6003F593195388D20070C39A /* Example for GMStoryVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				3D150AB41EA02F2B0005AA94 /* GMAppViewController.h */,
+				3D150AB31EA02F2B0005AA94 /* GMAppViewController.m */,
+				3D150AB61EA048C40005AA94 /* GMImageButton.h */,
+				3D150AB71EA048C40005AA94 /* GMImageButton.m */,
 				6003F59C195388D20070C39A /* GMAppDelegate.h */,
 				6003F59D195388D20070C39A /* GMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* GMViewController.h */,
-				6003F5A6195388D20070C39A /* GMViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -190,8 +191,6 @@
 			children = (
 				CBEAC9F835216BAB4221503D /* Pods-GMStoryVideoPlayer_Example.debug.xcconfig */,
 				615CC7C7C0B86F46DE66CD7B /* Pods-GMStoryVideoPlayer_Example.release.xcconfig */,
-				A238B7D37EA53311F254BF09 /* Pods-GMStoryVideoPlayer_Tests.debug.xcconfig */,
-				9421943D169FA2BA7E8B3E32 /* Pods-GMStoryVideoPlayer_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +222,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "GMStoryVideoPlayer_Tests" */;
 			buildPhases = (
-				A2768B52CE56D401CEDA6C68 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				608E8562ADA8A1E9893D1C90 /* [CP] Embed Pods Frameworks */,
-				45343DED7B276C025F4219FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,7 +243,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GM;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Gaston Morixe";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -312,36 +308,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMStoryVideoPlayer_Example/Pods-GMStoryVideoPlayer_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		45343DED7B276C025F4219FE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMStoryVideoPlayer_Tests/Pods-GMStoryVideoPlayer_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		608E8562ADA8A1E9893D1C90 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMStoryVideoPlayer_Tests/Pods-GMStoryVideoPlayer_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7F74255343A8B5E7E6DB4950 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,21 +338,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMStoryVideoPlayer_Example/Pods-GMStoryVideoPlayer_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A2768B52CE56D401CEDA6C68 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -395,7 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* GMAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* GMViewController.m in Sources */,
+				3D150AB51EA02F2B0005AA94 /* GMAppViewController.m in Sources */,
+				3D150AB81EA048C40005AA94 /* GMImageButton.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,14 +411,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -479,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,20 +456,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -551,7 +513,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A238B7D37EA53311F254BF09 /* Pods-GMStoryVideoPlayer_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -575,7 +536,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9421943D169FA2BA7E8B3E32 /* Pods-GMStoryVideoPlayer_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

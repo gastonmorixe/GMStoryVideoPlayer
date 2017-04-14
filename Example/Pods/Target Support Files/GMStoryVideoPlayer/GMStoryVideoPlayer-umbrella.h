@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "GMStoryViewController.h"
+#import "GMVideoViewController.h"
 
 FOUNDATION_EXPORT double GMStoryVideoPlayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char GMStoryVideoPlayerVersionString[];

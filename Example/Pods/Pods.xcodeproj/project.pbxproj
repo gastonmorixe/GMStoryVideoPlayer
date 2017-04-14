@@ -7,85 +7,365 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B6473B9DEEB37781C15D5BC751CC7C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DE49F1ACCAA8436F612BB9A6BA9A8B /* ReplaceMe.m */; };
-		1362989C96C7CC84244EE73458C7F738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		1EDA43646F8DF97E2C816198B9DE72E8 /* GMStoryVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C6EE0E636603CB781801777CD4D307 /* GMStoryVideoPlayer-dummy.m */; };
-		37B8BAB2C2E9943FA3FC05BA92C1C1DC /* Pods-GMStoryVideoPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B604C1ABBA0C8B5C4182484229AEC661 /* Pods-GMStoryVideoPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4824F1EF6E40BAEFF83752E5C1A6AB62 /* Pods-GMStoryVideoPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 885B24761B0C0DA0286CEA519FB6563D /* Pods-GMStoryVideoPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B9EBB105BD6BEB0A0814EC30BC8A0BF /* Pods-GMStoryVideoPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BD29CB02EB5CD64ED229CEC00FD0F6 /* Pods-GMStoryVideoPlayer_Tests-dummy.m */; };
-		592AF11B23A49E5178151D2EA523C229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7021A2318B57D488C706881AB15CDCBC /* Pods-GMStoryVideoPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B7B9B2BEA7C7A8DA9B052991F8ADAC /* Pods-GMStoryVideoPlayer_Example-dummy.m */; };
-		A43DFD1AF8219BB554468E1B1C18FB31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B395E2E4592815A75AF573908C67F43D /* GMStoryVideoPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5D8BE6144E8C9B98BE8842BA1C5376 /* GMStoryVideoPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01555E74744987691BAA30044FFDAFB0 /* RTSpinKitWaveAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E269C0EF697507DCA942163559993A /* RTSpinKitWaveAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		02BEDB8C86B3B9A0C8AFE7D118226D48 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C38009F0A8EF882058ADD5D1C37219 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03C86D47E6D3CE0FD1E0B78EF093E6AE /* VIResourceLoadingRequestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA015A3DC6C08F99631907935147BF /* VIResourceLoadingRequestWorker.m */; };
+		042A873A531EF07A9117976736B728B7 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A44F3F474D459F05777B4604DDC1EB /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0636CA432E7A235664A41826983B6145 /* GMVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BEB6537B66CD240EA9941FEF4BF67A /* GMVideoViewController.m */; };
+		098F07F71573808E804A345990B48AFC /* RTSpinKitPlaneAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6605E49F821903D92CD026A3A108AB30 /* RTSpinKitPlaneAnimation.m */; };
+		0E5D390129ABB1B8F5DF0FB912C8435B /* RTSpinKitBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F22E6B785BC8F2F5CC266C4312B9C0CC /* RTSpinKitBounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0ECB658E693ABD1538EBADE37CFCB8D1 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F582D69BA3F1DA2D1D31E5BF5E69A8D /* UIImage+MultiFormat.m */; };
+		10C25D4D8C48F13F0C26B0E759F37126 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC79688E075E4637A2F9A61E4E86872 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12167339C3BDE6290215F343B3477CE6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F4FB7D8A046A556AB8486B3F9995ED /* ImageIO.framework */; };
+		139031D3557041A8CBAB14A23847F164 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 664E83D4FFC251F8463EEB0D4F74E07F /* UIImageView+WebCache.m */; };
+		14F4F2D740C62037304DD3386DB9049A /* GMStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB3A909CCECC01305008C1940081828 /* GMStoryViewController.m */; };
+		16767BE1360B9197222370B188720940 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B54C3B32589646C160DDF561727248 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17949FFDDF75BF28E5DB67725957FFDD /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC24516DEF56211AAB0D94DC1B2AC6 /* SDWebImageManager.m */; };
+		17E0962A139B2506E7775656EDD6E0F2 /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = C14EDD24D5A17DD3890AF28B8D2CCA18 /* RTSpinKitView.m */; };
+		181CF8ACCA034D90FE1BB69ECE47520B /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A72C1634EF0F149E2BE64471317E220 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DA8303E4A35C43F49212F39BB47539A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E0087AAC96AF6BC289853B7C5E9F2C /* SDWebImage.framework */; };
+		25DB90FDE03EA14042E6C57AB7A0DEA9 /* RTSpinKitFadingCircleAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA2214958E2155AD76346966BA123A /* RTSpinKitFadingCircleAltAnimation.m */; };
+		27F236F5B70224621F494AF99E786CD1 /* SpinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD473821865FAB54AAEC4098C96999B1 /* SpinKit.framework */; };
+		2D71CD9046E7C2AA6F758FA05E1C2051 /* VIMediaDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4399CA9A44356956C27725A76B9EFC6B /* VIMediaDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3077D239CDB38AA803F11F198448BF1D /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F636AF643F271B3C327D5E13CCEF23 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33465D857866A60DCA25A95C25E981C0 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B8EE19AD63D1F4CA2E807B66B0AA7F55 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34CBC728558E01AEEE566F15BDF68417 /* RTSpinKitChasingDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCF33EF40F9D6092515E8F399393B89 /* RTSpinKitChasingDotsAnimation.m */; };
+		3671B0F6A6BFD820895F6FBD6349CD00 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0507875CBA0218BDF998426A1FB003DB /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A774F28B369F662AE8CA5DC6E3B10E /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C570082E38873338A38816A6B9AA003 /* UIView+WebCache.m */; };
+		37AB02789B07388DDADDF4E9C76B61D7 /* RTSpinKitThreeBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3283AA6C7BDA0E40807C783DAA47E2 /* RTSpinKitThreeBounceAnimation.m */; };
+		385986C4AFA5EBC2029F3F0071931C96 /* VIMediaDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8AEC4C86405E91F98637C464368F27 /* VIMediaDownloader.m */; };
+		3879726A9465E590543A3F22BE5686BF /* VIResourceLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 552AFB2027ADE18715BC0FC9044D3FB4 /* VIResourceLoaderManager.m */; };
+		392CEA91BF156E32CD954276DF4A12F4 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C0F8DF5FD7940D5EC1A0617036D8C0 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40F9BFBADDFC0097C3CBC5400F773F55 /* RTSpinKitWanderingCubesAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E21026F38E5E532FB0DC6EEF811434FB /* RTSpinKitWanderingCubesAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45B0321E33222B784B1113F39BD777D1 /* RTSpinKit9CubeGridAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C33D479151EBEFE00252F315392A613 /* RTSpinKit9CubeGridAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4661B60147F849B9421746335BD89B39 /* SpinKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF24F25B24FCE2C0411BB1601AA5DD78 /* SpinKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1B502B54E8E4EE784B2643E37C9C1D /* RTSpinKitWordPressAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0373465B9BC6DC11002B36D73397317D /* RTSpinKitWordPressAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		500B665DE6EF995F8184C3663C90BFCB /* VICacheAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EA7157267EFD8BA91BA97D30DDCA31 /* VICacheAction.m */; };
+		52DBAAADFE31F958A5A180313293C2CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138DB0A0D41F8B04E60A9BA9E82F2E94 /* AVFoundation.framework */; };
+		55FB25CE3EB226E3BD5C2362D805BFBC /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B63509C925D89ADC89FE31A0F23D533 /* SDImageCache.m */; };
+		581FA2C0B19C28653A63D9731320E809 /* RTSpinKitFadingCircleAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF42F2E28F2E6BAA3F52F883932CE4F /* RTSpinKitFadingCircleAltAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59D7D616866A66C5CB4E21FACECF328B /* GMStoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50353EBC935670546521E1BB681B5356 /* GMStoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AFEEB35256C6FAD2B21573ADC2E90D6 /* Pods-GMStoryVideoPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31357D608810FFF4FE397BAE7AA4B3BC /* Pods-GMStoryVideoPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C7B7AA124319CF7767267DD1EE9A370 /* RTSpinKitChasingDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F44C326867C789FD3DC4E87322F40E /* RTSpinKitChasingDotsAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F13812D178964B85D2A927D2A16F353 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E70707BC97F6F3633206E1195BF7C9 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FD4113F3B31EE0547D564D2A03BBB99 /* RTSpinKitBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E15FDC365785193DEABAFED3B1D98DF /* RTSpinKitBounceAnimation.m */; };
+		60C74AAC021D812EAC3F16AAFAD66D41 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B619DFBABB4312C4D63A010A7D05F739 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6381F2C75FEA1AA77945E4768D01812B /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 527315B70D402A1B9B6F49D6E97A5D96 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65CBA34F2FDF3DBBE0E321BA6013C49F /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 41357272FB33D63456C4A74172DAFC88 /* NSData+ImageContentType.m */; };
+		6644FABB67F4284F203BA2498C044870 /* VICacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5375A062181610D851E71E7161346D8 /* VICacheManager.m */; };
+		6661C2D89901648C7E27B530084CE9E0 /* RTSpinKitPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8C2D613904031AAEACA1F5E077949 /* RTSpinKitPulseAnimation.m */; };
+		677052A0FE38D532E85FA494D777B949 /* RTSpinKitArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 498F1E9300B4946B64798E1F7E783257 /* RTSpinKitArcAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6BA836838C56A27DF315F8BDB47A6307 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9DC5F90EE4840DA0E6626FDC7B35F7 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BB6858981CAE414097C3C289DC4C1A7 /* VICacheSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 627D1D2904F2E6F99E009698A324D3E7 /* VICacheSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C0015D0F249702E807B618F8BDB7935 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A48E878338C9948823AAE86C20F16 /* UIImage+GIF.m */; };
+		6D4A5CAD52E6DE9B62C931CA976BD60D /* RTSpinKitArcAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6723147D4199120CAB79D3BA9A12804 /* RTSpinKitArcAltAnimation.m */; };
+		6F6537DBE9ECCC72180739779DEC8CAD /* RTSpinKitCircleFlipAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1495C74E7308DFE16F577A25D35D08 /* RTSpinKitCircleFlipAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7111F8775DB14C0159BDECC286393AE8 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F045F413E3F9B26380C8EF968AD64CF /* UIView+WebCacheOperation.m */; };
+		72BF848BC968BF4EF5455306DBA58547 /* VIMediaCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 694753A3CADA066DB628A8F06E1C6161 /* VIMediaCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76490407E58687E67224BA7C0D70A381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC32F0D7DC7A2C52787BF44F935D7CA /* Foundation.framework */; };
+		77A63759CF24DC547C2492D8ACBB6075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC32F0D7DC7A2C52787BF44F935D7CA /* Foundation.framework */; };
+		77C394AD28CDA6DC32A35499D74D8478 /* RTSpinKitWaveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 012B2675C4B241C9A808B373EA2E01A6 /* RTSpinKitWaveAnimation.m */; };
+		782C3D1CBF25EFB582C8F24DB894B35F /* VIResourceLoadingRequestWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C61D4C2FBEEE6E0A0EDA3371B33157A /* VIResourceLoadingRequestWorker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		795CF7E6D0D30E1837BC904A884D4D36 /* RTSpinKitArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9A2E302100EAC8EAAF79E436EFE03 /* RTSpinKitArcAnimation.m */; };
+		7C632BDB73936E08D404970A3C7ABB79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC32F0D7DC7A2C52787BF44F935D7CA /* Foundation.framework */; };
+		7F57FD066D0D3F0E330265DF2187B70F /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A301D757C40D0D96DF07E166A0BE019 /* NSImage+WebCache.m */; };
+		83F41BDC8AC22FA137CD3A8F59E09740 /* RTSpinKitWordPressAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A64A026A8F12EB46B4FF80A55B090350 /* RTSpinKitWordPressAnimation.m */; };
+		85A113A7D8501197836D726B32DAA2FD /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ED54DF7548DC18C33B2FAD8FF5B36D32 /* UIButton+WebCache.m */; };
+		88FC54C98C629A4678B07E8C718379ED /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487AD2EB92FBD65B00C1F22C5EBF755 /* SDWebImageDownloader.m */; };
+		8AEAA4B7163945DA7E365CAE1E959832 /* RTSpinKitCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA5682F6FBEFE8AD9E6FF19ACEA28A /* RTSpinKitCircleAnimation.m */; };
+		8E8D7E21C8EF5B150C3C38C203557A88 /* SpinKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0D394B64CB78582227F7CBF5974A2C /* SpinKit-dummy.m */; };
+		94643102B8116C9C391B23511D65F42E /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E485300DE700CB654BD67DF40EA14EFA /* SDWebImageCompat.m */; };
+		951448090127D48D05DE0800032B2A93 /* VICacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC932D0FC058491F6CBC03024B53670 /* VICacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0CDC7DDFC4D7118C260F0F69AB5D0D /* RTSpinKitPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A72956774709D52C6E9F194731D991D /* RTSpinKitPulseAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C7B79FCD4B0D214BE18D1F09BD7A4BC /* VIMediaCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B8E5CC1E9655A9D91AA2EB23431249 /* VIMediaCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C893864FDFBCFADC5D6E7D64396EDCA /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B08677F39CB0613E3960ED7520EA31 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CDE414314F21676B8830FECC9204D0A /* VIContentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE96DB89BB3AAB3CAF329A548E4E4DF /* VIContentInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E54B1E91E6A819CB355C0E9763FE12A /* VIContentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BCECA637FF443067B4D926208D03BF1D /* VIContentInfo.m */; };
+		9FA043FF875F19A863482C86C8E1D21E /* RTSpinKitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ABEF1BE8F0E750290FB71D8F7F7EB3 /* RTSpinKitView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1941A5D0DB60D245C6558992B824BAE /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 55550E69F756F9006F5C77E12A387619 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A916006208927EE4FB70FD212E8C175E /* GMStoryVideoPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5D8BE6144E8C9B98BE8842BA1C5376 /* GMStoryVideoPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8203883759F466F1F9D00E6FCAC0B2 /* RTSpinKitAnimating.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DAB3CDDF747B8876A6B7822FC070C2B /* RTSpinKitAnimating.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE204DFF737CFFFC262B61254039D32B /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0DA1D4619E8F7AD142B60E021A1996 /* SDWebImageDecoder.m */; };
+		AFA02120613B13DC8169A458470C6AE6 /* RTSpinKitCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8EC0FDF6E079B326AF4F78E325FE23 /* RTSpinKitCircleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3E79ED6142761D9850011DA26A46611 /* VIResourceLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A69D49F13026D0D75E564402FF262E99 /* VIResourceLoaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F28EE0EA494DDE63239B0B81747EAC /* VICacheConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E75737850298114EEA61D014EDBDDFE3 /* VICacheConfiguration.m */; };
+		BA7E4B543327A438740D7B8368F12974 /* VIResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA708AFDBB079A299CE02FF8D6BDBD /* VIResourceLoader.m */; };
+		BB7FADD4E66DD9CC3E455C36732D0249 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C27DB1C5584037666CD35F1BC599B34 /* UIImageView+HighlightedWebCache.m */; };
+		BCF5D7C1595B32A4D96D0354E351C96F /* VICacheConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = AB076846EAE9181210CB7251081E1198 /* VICacheConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C31D454D210457D1CD303DED99AB9169 /* RTSpinKitWanderingCubesAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B8A1C183352F0E43BE718ED5D8AFC4 /* RTSpinKitWanderingCubesAnimation.m */; };
+		C31F5306618EB4ADBA20D608CEC571F0 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D81F82CCA31B469559A1AC60D9B1B /* SDImageCacheConfig.m */; };
+		C5214CFC0B39E696B5E2B72EAF0A1FF9 /* VICacheAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E81F5FBCD55F785B9454C8FD20BA758 /* VICacheAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C94572D0592DDE0BE0DECDB78CFD9F00 /* VIMediaCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4899A33B9B627AA95C5F7811A9E3E7 /* VIMediaCache-dummy.m */; };
+		C9E8645888DC4BCF695789D8820E07A4 /* Pods-GMStoryVideoPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C968CD722B4F36B5E95EB7C05DB79 /* Pods-GMStoryVideoPlayer_Example-dummy.m */; };
+		CFE3160276674D5A87BA0DF97D421595 /* VIMediaCacheWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 14066C8560690D2440E70C01DEFF8607 /* VIMediaCacheWorker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F394295C3C1AF7E7F2102120D26520 /* VIResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 03E9FB35DC45A3D14A0BC57F356E105D /* VIResourceLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F28D2D6CBC2F1F16C9EAF045678DB2 /* RTSpinKitFadingCircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E9ACDE4355E0D71270B79BFE1C74E574 /* RTSpinKitFadingCircleAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5E145D31219D034AD939743E5E11A78 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECF46B1D45D3FA799B5E52BD6E5D19 /* MobileCoreServices.framework */; };
+		DBA78BDD4D3D3C328275995827F2991C /* VICacheSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF89EC1C18F4889959DCB444DF4B647 /* VICacheSessionManager.m */; };
+		DE797594860BD1A2C23C9940F9185096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC32F0D7DC7A2C52787BF44F935D7CA /* Foundation.framework */; };
+		DE8787BF1E8CB990AF6D2E3E4F09497D /* VIMediaCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C45B51B80E9713F17A24E867EB4B74 /* VIMediaCache.framework */; };
+		DED8C439015B2CB0CF7E3D6612994D56 /* GMStoryVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C6EE0E636603CB781801777CD4D307 /* GMStoryVideoPlayer-dummy.m */; };
+		E4EBAA738D7143DA6B9A6B45E4A31AE0 /* GMVideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 050CE08D83CB8AA0CCA1F3A342BFD212 /* GMVideoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5078D03750C1437BED33B96B74945B0 /* RTSpinKitCircleFlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82A9FF624F76E1BB6055B074B92E22 /* RTSpinKitCircleFlipAnimation.m */; };
+		E7D39CDAC496D304C9AC4E6AC87827A9 /* RTSpinKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B54410650213C03B1144797B6B92867E /* RTSpinKitUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8DE55A554335C7FDD89F1AF79FF49A1 /* VIMediaCacheWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6395534052C6FD02F3E1D3EE481745C3 /* VIMediaCacheWorker.m */; };
+		E9DB34733E993B88EC31BCE65ABC479A /* RTSpinKitArcAltAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AE30FF00F87131F56BA7BB1EDCE756E5 /* RTSpinKitArcAltAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA5E3B5C51FFD821FA1A9965DB06E2D0 /* NSImage+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E05990D95BB555A68852354D45CB009 /* NSImage+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBE56095018D0F6475419378F8B74F5B /* RTSpinKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 67645835E507075609D85CF5A91E8F7D /* RTSpinKitUtils.m */; };
+		EBF9DF230B195DC8E7C434778F9C2D4F /* RTSpinKitThreeBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01331FC32BE95FECAA797F5207CE3B9D /* RTSpinKitThreeBounceAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEE59D8917FF2C214EE2EFDCFAACBDDB /* RTSpinKitPlaneAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0676D7F1D4192E780245741C225F3D /* RTSpinKitPlaneAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F28E77ACCC4086FC1F01506E76C54791 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C51414704161B515F54139DB583D3E1E /* SDWebImagePrefetcher.m */; };
+		F37F08C071F493225BB03B8A3888FE25 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F0A6C70B1CF474A8676AF741972C2 /* SDWebImageDownloaderOperation.m */; };
+		F49B3F578A5E898FCF803055146D55AD /* RTSpinKit9CubeGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A04B3A652654103E007B4F116D60359A /* RTSpinKit9CubeGridAnimation.m */; };
+		F558E30E4EF4849D8E0A1AC8BA3803AA /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE3283A755BEA74396608BA1967C8D8 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65947ACD670FC4A50784C04DC17BAE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC32F0D7DC7A2C52787BF44F935D7CA /* Foundation.framework */; };
+		F6A652720B2613A840FAA68BD54C16FA /* RTSpinKitFadingCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2A3B9C453DED14A328BFA6C83A435E /* RTSpinKitFadingCircleAnimation.m */; };
+		FD7E9375AA9524F9F7BDBAB4BE6C8483 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CAA44476D867CA62F70FE700CB9628A /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE25F578AA1E7FA852A643D3E0D178B8 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A0309D37446AE90E05611E2FF225F2 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA92B656C33A50349E8623E99B13CFF /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95D468D44F5853A7024677B5A45A42 /* SDWebImage-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D179BD37DB15F8819DAAF1711C414096 /* PBXContainerItemProxy */ = {
+		28FB334925BF4460A77E59F876A9828B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 605AF5F7C8EEB3BE30344A781CD32235;
+			remoteGlobalIDString = 8AEDC6E5DCFB6B65DC70CAD625C75EBF;
+			remoteInfo = SpinKit;
+		};
+		3E3D199450056556DAD130C494BEFAD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 913652B8F40A80383B64E30986EA1E78;
+			remoteInfo = SDWebImage;
+		};
+		83B961404DDAAC0EDFFF7D27C5697F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18248C04CFA3755DDE0331A94AE6066C;
+			remoteInfo = VIMediaCache;
+		};
+		9340CD9CDFBC2F9596832CD4C3B33F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13744DF220319FF82F267F467DC93E7A;
 			remoteInfo = GMStoryVideoPlayer;
+		};
+		C706976D5F3957FD8983CD7392C4695E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 913652B8F40A80383B64E30986EA1E78;
+			remoteInfo = SDWebImage;
+		};
+		DED40DB6FDA358A322F25C9027036823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEDC6E5DCFB6B65DC70CAD625C75EBF;
+			remoteInfo = SpinKit;
+		};
+		E61DCE2B644FB5724121B3DF04C46A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18248C04CFA3755DDE0331A94AE6066C;
+			remoteInfo = VIMediaCache;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003901191DCB1751D0D3C50C93181AC5 /* GMStoryVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GMStoryVideoPlayer.framework; path = GMStoryVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		030A86AE0F3EC3DE16F6DAE7428615EB /* Pods-GMStoryVideoPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMStoryVideoPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		06B7B9B2BEA7C7A8DA9B052991F8ADAC /* Pods-GMStoryVideoPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMStoryVideoPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		012B2675C4B241C9A808B373EA2E01A6 /* RTSpinKitWaveAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWaveAnimation.m; path = SpinKit/Animations/RTSpinKitWaveAnimation.m; sourceTree = "<group>"; };
+		01331FC32BE95FECAA797F5207CE3B9D /* RTSpinKitThreeBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitThreeBounceAnimation.h; path = SpinKit/Animations/RTSpinKitThreeBounceAnimation.h; sourceTree = "<group>"; };
+		02F4FB7D8A046A556AB8486B3F9995ED /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		0373465B9BC6DC11002B36D73397317D /* RTSpinKitWordPressAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWordPressAnimation.h; path = SpinKit/Animations/RTSpinKitWordPressAnimation.h; sourceTree = "<group>"; };
+		03E9FB35DC45A3D14A0BC57F356E105D /* VIResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIResourceLoader.h; path = VIMediaCache/ResourceLoader/VIResourceLoader.h; sourceTree = "<group>"; };
+		04C38009F0A8EF882058ADD5D1C37219 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		04E0087AAC96AF6BC289853B7C5E9F2C /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0507875CBA0218BDF998426A1FB003DB /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		050CE08D83CB8AA0CCA1F3A342BFD212 /* GMVideoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GMVideoViewController.h; sourceTree = "<group>"; };
+		05B08677F39CB0613E3960ED7520EA31 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		0B63509C925D89ADC89FE31A0F23D533 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
 		0CC69546B82ABAD2C948BAD718B7FD33 /* GMStoryVideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMStoryVideoPlayer.xcconfig; sourceTree = "<group>"; };
-		16F7774A720ADF7D6303FFD12A3F42BA /* Pods-GMStoryVideoPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMStoryVideoPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		22F4EAA15F8A39F6B414E4E84EF5C293 /* Pods-GMStoryVideoPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMStoryVideoPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
-		32DE49F1ACCAA8436F612BB9A6BA9A8B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		330B0F75FFBF7895F670CA5D1988C195 /* Pods-GMStoryVideoPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMStoryVideoPlayer_Example-resources.sh"; sourceTree = "<group>"; };
-		4A2AABD0796E7F0D905DEC9C5BCE07B4 /* Pods-GMStoryVideoPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMStoryVideoPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4EE5BFDF65A6AC5A30A472CC75E97476 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5877880520477F6A050DA909E0F9250B /* Pods-GMStoryVideoPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMStoryVideoPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6870A5B7D1345D14FB8891404D805EF2 /* Pods-GMStoryVideoPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMStoryVideoPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8687C26F311C13B00EC353C0EF3C67FB /* Pods-GMStoryVideoPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMStoryVideoPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		885B24761B0C0DA0286CEA519FB6563D /* Pods-GMStoryVideoPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMStoryVideoPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8A97E93D2F5287BA688CCE32C92505AE /* Pods-GMStoryVideoPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GMStoryVideoPlayer_Tests.modulemap"; sourceTree = "<group>"; };
-		8C5F92F1CEC129973504BB18C50AD606 /* Pods-GMStoryVideoPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMStoryVideoPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CF42F2E28F2E6BAA3F52F883932CE4F /* RTSpinKitFadingCircleAltAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitFadingCircleAltAnimation.h; path = SpinKit/Animations/RTSpinKitFadingCircleAltAnimation.h; sourceTree = "<group>"; };
+		138DB0A0D41F8B04E60A9BA9E82F2E94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		14066C8560690D2440E70C01DEFF8607 /* VIMediaCacheWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMediaCacheWorker.h; path = VIMediaCache/Cache/VIMediaCacheWorker.h; sourceTree = "<group>"; };
+		1487AD2EB92FBD65B00C1F22C5EBF755 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		1C570082E38873338A38816A6B9AA003 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
+		1C9C91F958DC8F62AFFBDC7395617AEE /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		1D8EC0FDF6E079B326AF4F78E325FE23 /* RTSpinKitCircleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitCircleAnimation.h; path = SpinKit/Animations/RTSpinKitCircleAnimation.h; sourceTree = "<group>"; };
+		1FC32F0D7DC7A2C52787BF44F935D7CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		23CAD3E979BD053C58AA263B43EB3DC1 /* SpinKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinKit-prefix.pch"; sourceTree = "<group>"; };
+		24AE5B0F1B010D5A675A43D2466553D9 /* Pods-GMStoryVideoPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMStoryVideoPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AC79688E075E4637A2F9A61E4E86872 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
+		2C33D479151EBEFE00252F315392A613 /* RTSpinKit9CubeGridAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKit9CubeGridAnimation.h; path = SpinKit/Animations/RTSpinKit9CubeGridAnimation.h; sourceTree = "<group>"; };
+		31357D608810FFF4FE397BAE7AA4B3BC /* Pods-GMStoryVideoPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMStoryVideoPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		35E269C0EF697507DCA942163559993A /* RTSpinKitWaveAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWaveAnimation.h; path = SpinKit/Animations/RTSpinKitWaveAnimation.h; sourceTree = "<group>"; };
+		35FEB9A0BFBA805554D764A45C20C1F7 /* SpinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpinKit.framework; path = SpinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C45B51B80E9713F17A24E867EB4B74 /* VIMediaCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VIMediaCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CA708AFDBB079A299CE02FF8D6BDBD /* VIResourceLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIResourceLoader.m; path = VIMediaCache/ResourceLoader/VIResourceLoader.m; sourceTree = "<group>"; };
+		37F44C326867C789FD3DC4E87322F40E /* RTSpinKitChasingDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitChasingDotsAnimation.h; path = SpinKit/Animations/RTSpinKitChasingDotsAnimation.h; sourceTree = "<group>"; };
+		3971AC8A0D0625D2ABED21FAFD2305E5 /* SpinKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpinKit.xcconfig; sourceTree = "<group>"; };
+		3A301D757C40D0D96DF07E166A0BE019 /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
+		3B2D81F82CCA31B469559A1AC60D9B1B /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
+		3C61D4C2FBEEE6E0A0EDA3371B33157A /* VIResourceLoadingRequestWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIResourceLoadingRequestWorker.h; path = VIMediaCache/ResourceLoader/VIResourceLoadingRequestWorker.h; sourceTree = "<group>"; };
+		3E1495C74E7308DFE16F577A25D35D08 /* RTSpinKitCircleFlipAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitCircleFlipAnimation.h; path = SpinKit/Animations/RTSpinKitCircleFlipAnimation.h; sourceTree = "<group>"; };
+		3F045F413E3F9B26380C8EF968AD64CF /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		41357272FB33D63456C4A74172DAFC88 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		4399CA9A44356956C27725A76B9EFC6B /* VIMediaDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMediaDownloader.h; path = VIMediaCache/ResourceLoader/VIMediaDownloader.h; sourceTree = "<group>"; };
+		47A0309D37446AE90E05611E2FF225F2 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		498F1E9300B4946B64798E1F7E783257 /* RTSpinKitArcAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitArcAnimation.h; path = SpinKit/Animations/RTSpinKitArcAnimation.h; sourceTree = "<group>"; };
+		4C27DB1C5584037666CD35F1BC599B34 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		4C4899A33B9B627AA95C5F7811A9E3E7 /* VIMediaCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIMediaCache-dummy.m"; sourceTree = "<group>"; };
+		4D08C5EE46ABEC20467ED27B1EC956B6 /* GMStoryVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GMStoryVideoPlayer.framework; path = GMStoryVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD9A2E302100EAC8EAAF79E436EFE03 /* RTSpinKitArcAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitArcAnimation.m; path = SpinKit/Animations/RTSpinKitArcAnimation.m; sourceTree = "<group>"; };
+		4DECF46B1D45D3FA799B5E52BD6E5D19 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		50353EBC935670546521E1BB681B5356 /* GMStoryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GMStoryViewController.h; sourceTree = "<group>"; };
+		527315B70D402A1B9B6F49D6E97A5D96 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		5382B6DF08BB6696606A438D4B9DC518 /* SpinKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SpinKit.modulemap; sourceTree = "<group>"; };
+		552AFB2027ADE18715BC0FC9044D3FB4 /* VIResourceLoaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIResourceLoaderManager.m; path = VIMediaCache/ResourceLoader/VIResourceLoaderManager.m; sourceTree = "<group>"; };
+		55550E69F756F9006F5C77E12A387619 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		5B6A66C6A281804618E388FFE9159A35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E81F5FBCD55F785B9454C8FD20BA758 /* VICacheAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheAction.h; path = VIMediaCache/Cache/VICacheAction.h; sourceTree = "<group>"; };
+		627D1D2904F2E6F99E009698A324D3E7 /* VICacheSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheSessionManager.h; path = VIMediaCache/Cache/VICacheSessionManager.h; sourceTree = "<group>"; };
+		6395534052C6FD02F3E1D3EE481745C3 /* VIMediaCacheWorker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMediaCacheWorker.m; path = VIMediaCache/Cache/VIMediaCacheWorker.m; sourceTree = "<group>"; };
+		64313677B942283E8360096F235C461D /* VIMediaCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIMediaCache.xcconfig; sourceTree = "<group>"; };
+		64C8C2D613904031AAEACA1F5E077949 /* RTSpinKitPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitPulseAnimation.m; path = SpinKit/Animations/RTSpinKitPulseAnimation.m; sourceTree = "<group>"; };
+		64D38C0C0EA80FF588C1C3B4267604DD /* VIMediaCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VIMediaCache.modulemap; sourceTree = "<group>"; };
+		6605E49F821903D92CD026A3A108AB30 /* RTSpinKitPlaneAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitPlaneAnimation.m; path = SpinKit/Animations/RTSpinKitPlaneAnimation.m; sourceTree = "<group>"; };
+		664E83D4FFC251F8463EEB0D4F74E07F /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		66B54C3B32589646C160DDF561727248 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		67645835E507075609D85CF5A91E8F7D /* RTSpinKitUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitUtils.m; path = SpinKit/RTSpinKitUtils.m; sourceTree = "<group>"; };
+		6896D8BFDA81D9DBF90FAABE8F4213DE /* VIMediaCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VIMediaCache.framework; path = VIMediaCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694753A3CADA066DB628A8F06E1C6161 /* VIMediaCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIMediaCache-umbrella.h"; sourceTree = "<group>"; };
+		69ABEF1BE8F0E750290FB71D8F7F7EB3 /* RTSpinKitView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitView.h; path = SpinKit/RTSpinKitView.h; sourceTree = "<group>"; };
+		6A72C1634EF0F149E2BE64471317E220 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		6CAA44476D867CA62F70FE700CB9628A /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		6DAB3CDDF747B8876A6B7822FC070C2B /* RTSpinKitAnimating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitAnimating.h; path = SpinKit/RTSpinKitAnimating.h; sourceTree = "<group>"; };
+		6E05990D95BB555A68852354D45CB009 /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
+		6E15FDC365785193DEABAFED3B1D98DF /* RTSpinKitBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitBounceAnimation.m; path = SpinKit/Animations/RTSpinKitBounceAnimation.m; sourceTree = "<group>"; };
+		6F582D69BA3F1DA2D1D31E5BF5E69A8D /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		6F5A48E878338C9948823AAE86C20F16 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		7E2C968CD722B4F36B5E95EB7C05DB79 /* Pods-GMStoryVideoPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMStoryVideoPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		80538F0A55FD697FA0B057817971969A /* Pods-GMStoryVideoPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMStoryVideoPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		81E70707BC97F6F3633206E1195BF7C9 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		836F0A6C70B1CF474A8676AF741972C2 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		88BEB6537B66CD240EA9941FEF4BF67A /* GMVideoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GMVideoViewController.m; sourceTree = "<group>"; };
+		8A72956774709D52C6E9F194731D991D /* RTSpinKitPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitPulseAnimation.h; path = SpinKit/Animations/RTSpinKitPulseAnimation.h; sourceTree = "<group>"; };
+		8CD5DB736A5BE956E4262578A25511E9 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		8DCF33EF40F9D6092515E8F399393B89 /* RTSpinKitChasingDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitChasingDotsAnimation.m; path = SpinKit/Animations/RTSpinKitChasingDotsAnimation.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		954B9973C165A84D519AF23A05A74105 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A18578ED4AAAE98C3ECEC0E3D8BC271F /* Pods-GMStoryVideoPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMStoryVideoPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		95EA7157267EFD8BA91BA97D30DDCA31 /* VICacheAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheAction.m; path = VIMediaCache/Cache/VICacheAction.m; sourceTree = "<group>"; };
+		A04B3A652654103E007B4F116D60359A /* RTSpinKit9CubeGridAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKit9CubeGridAnimation.m; path = SpinKit/Animations/RTSpinKit9CubeGridAnimation.m; sourceTree = "<group>"; };
+		A083CA439A0057DDDDCF3A726AB9C080 /* Pods-GMStoryVideoPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMStoryVideoPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A0A0C245212CDC8FA40CE3B6BDA2AB07 /* Pods-GMStoryVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMStoryVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A3BA2214958E2155AD76346966BA123A /* RTSpinKitFadingCircleAltAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitFadingCircleAltAnimation.m; path = SpinKit/Animations/RTSpinKitFadingCircleAltAnimation.m; sourceTree = "<group>"; };
 		A52638FA7AC9FC644FE7BF7A089ACC97 /* GMStoryVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMStoryVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
-		B604C1ABBA0C8B5C4182484229AEC661 /* Pods-GMStoryVideoPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMStoryVideoPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		A5FC24516DEF56211AAB0D94DC1B2AC6 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		A64A026A8F12EB46B4FF80A55B090350 /* RTSpinKitWordPressAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWordPressAnimation.m; path = SpinKit/Animations/RTSpinKitWordPressAnimation.m; sourceTree = "<group>"; };
+		A671BABB1435BCAC9B40FC7C82091B37 /* Pods_GMStoryVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMStoryVideoPlayer_Example.framework; path = "Pods-GMStoryVideoPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69D49F13026D0D75E564402FF262E99 /* VIResourceLoaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIResourceLoaderManager.h; path = VIMediaCache/ResourceLoader/VIResourceLoaderManager.h; sourceTree = "<group>"; };
+		A6B8E5CC1E9655A9D91AA2EB23431249 /* VIMediaCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMediaCache.h; path = VIMediaCache/VIMediaCache.h; sourceTree = "<group>"; };
+		AAC932D0FC058491F6CBC03024B53670 /* VICacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheManager.h; path = VIMediaCache/Cache/VICacheManager.h; sourceTree = "<group>"; };
+		AB076846EAE9181210CB7251081E1198 /* VICacheConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheConfiguration.h; path = VIMediaCache/Cache/VICacheConfiguration.h; sourceTree = "<group>"; };
+		AE30FF00F87131F56BA7BB1EDCE756E5 /* RTSpinKitArcAltAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitArcAltAnimation.h; path = SpinKit/Animations/RTSpinKitArcAltAnimation.h; sourceTree = "<group>"; };
+		AF0DA1D4619E8F7AD142B60E021A1996 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		B43C2C20B9C97F1292918DD64F646971 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54410650213C03B1144797B6B92867E /* RTSpinKitUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitUtils.h; path = SpinKit/RTSpinKitUtils.h; sourceTree = "<group>"; };
+		B619DFBABB4312C4D63A010A7D05F739 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		B7BF77291D0380145A69824B208DBD3E /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C6EE0E636603CB781801777CD4D307 /* GMStoryVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMStoryVideoPlayer-dummy.m"; sourceTree = "<group>"; };
+		B8EE19AD63D1F4CA2E807B66B0AA7F55 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		B9B47C33D38D2B4811CFF1A89878A127 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		BAAAB17F32DE74831FCEE8479878F813 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0D394B64CB78582227F7CBF5974A2C /* SpinKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpinKit-dummy.m"; sourceTree = "<group>"; };
+		BCECA637FF443067B4D926208D03BF1D /* VIContentInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIContentInfo.m; path = VIMediaCache/ResourceLoader/VIContentInfo.m; sourceTree = "<group>"; };
+		BD473821865FAB54AAEC4098C96999B1 /* SpinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF645226B16361579E1A3469208DAAFF /* GMStoryVideoPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GMStoryVideoPlayer.modulemap; sourceTree = "<group>"; };
-		C1CE6AB3BBAC50C683C61832AB59C456 /* Pods_GMStoryVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMStoryVideoPlayer_Example.framework; path = "Pods-GMStoryVideoPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DB7D6D639304624CB8BD3F45F5517CF6 /* Pods_GMStoryVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMStoryVideoPlayer_Tests.framework; path = "Pods-GMStoryVideoPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0B1B2A41C56DF278EAD00B2B0A09507 /* Pods-GMStoryVideoPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMStoryVideoPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E163F96D10FCF2565964AD8AA37F34AF /* Pods-GMStoryVideoPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GMStoryVideoPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		BF6BA0DEC7727C2FB0AB33D5C505943F /* VIMediaCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIMediaCache-prefix.pch"; sourceTree = "<group>"; };
+		C14EDD24D5A17DD3890AF28B8D2CCA18 /* RTSpinKitView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitView.m; path = SpinKit/RTSpinKitView.m; sourceTree = "<group>"; };
+		C51414704161B515F54139DB583D3E1E /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		C6F60F6957FD5F0E1040289BE8AECB43 /* Pods-GMStoryVideoPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMStoryVideoPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		C8D5941B190AB027DB62B29AB38DBE43 /* Pods-GMStoryVideoPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMStoryVideoPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAF89EC1C18F4889959DCB444DF4B647 /* VICacheSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheSessionManager.m; path = VIMediaCache/Cache/VICacheSessionManager.m; sourceTree = "<group>"; };
+		CB9DC5F90EE4840DA0E6626FDC7B35F7 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		CC82A9FF624F76E1BB6055B074B92E22 /* RTSpinKitCircleFlipAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitCircleFlipAnimation.m; path = SpinKit/Animations/RTSpinKitCircleFlipAnimation.m; sourceTree = "<group>"; };
+		CCE96DB89BB3AAB3CAF329A548E4E4DF /* VIContentInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIContentInfo.h; path = VIMediaCache/ResourceLoader/VIContentInfo.h; sourceTree = "<group>"; };
+		CD8AEC4C86405E91F98637C464368F27 /* VIMediaDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMediaDownloader.m; path = VIMediaCache/ResourceLoader/VIMediaDownloader.m; sourceTree = "<group>"; };
+		D6723147D4199120CAB79D3BA9A12804 /* RTSpinKitArcAltAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitArcAltAnimation.m; path = SpinKit/Animations/RTSpinKitArcAltAnimation.m; sourceTree = "<group>"; };
+		DC2B10916EC4F362FE0FA6BF3260630B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6DF01E46BA533367A5E5CB43FF6710 /* Pods-GMStoryVideoPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GMStoryVideoPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		DF24F25B24FCE2C0411BB1601AA5DD78 /* SpinKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinKit-umbrella.h"; sourceTree = "<group>"; };
+		DF3283AA6C7BDA0E40807C783DAA47E2 /* RTSpinKitThreeBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitThreeBounceAnimation.m; path = SpinKit/Animations/RTSpinKitThreeBounceAnimation.m; sourceTree = "<group>"; };
+		E1AA015A3DC6C08F99631907935147BF /* VIResourceLoadingRequestWorker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIResourceLoadingRequestWorker.m; path = VIMediaCache/ResourceLoader/VIResourceLoadingRequestWorker.m; sourceTree = "<group>"; };
+		E21026F38E5E532FB0DC6EEF811434FB /* RTSpinKitWanderingCubesAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitWanderingCubesAnimation.h; path = SpinKit/Animations/RTSpinKitWanderingCubesAnimation.h; sourceTree = "<group>"; };
+		E485300DE700CB654BD67DF40EA14EFA /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		E5375A062181610D851E71E7161346D8 /* VICacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheManager.m; path = VIMediaCache/Cache/VICacheManager.m; sourceTree = "<group>"; };
+		E5F636AF643F271B3C327D5E13CCEF23 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		E6A44F3F474D459F05777B4604DDC1EB /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		E75737850298114EEA61D014EDBDDFE3 /* VICacheConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheConfiguration.m; path = VIMediaCache/Cache/VICacheConfiguration.m; sourceTree = "<group>"; };
+		E9ACDE4355E0D71270B79BFE1C74E574 /* RTSpinKitFadingCircleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitFadingCircleAnimation.h; path = SpinKit/Animations/RTSpinKitFadingCircleAnimation.h; sourceTree = "<group>"; };
+		EC0676D7F1D4192E780245741C225F3D /* RTSpinKitPlaneAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitPlaneAnimation.h; path = SpinKit/Animations/RTSpinKitPlaneAnimation.h; sourceTree = "<group>"; };
 		ED147B41B09316BF753209033A85ADAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F653939C8E881CBB0C56D6926E247F41 /* Pods-GMStoryVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMStoryVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F6BD29CB02EB5CD64ED229CEC00FD0F6 /* Pods-GMStoryVideoPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMStoryVideoPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		ED54DF7548DC18C33B2FAD8FF5B36D32 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		EE2A3B9C453DED14A328BFA6C83A435E /* RTSpinKitFadingCircleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitFadingCircleAnimation.m; path = SpinKit/Animations/RTSpinKitFadingCircleAnimation.m; sourceTree = "<group>"; };
+		EEB3A909CCECC01305008C1940081828 /* GMStoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GMStoryViewController.m; sourceTree = "<group>"; };
+		F22E6B785BC8F2F5CC266C4312B9C0CC /* RTSpinKitBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTSpinKitBounceAnimation.h; path = SpinKit/Animations/RTSpinKitBounceAnimation.h; sourceTree = "<group>"; };
+		F2C0F8DF5FD7940D5EC1A0617036D8C0 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		F4B8A1C183352F0E43BE718ED5D8AFC4 /* RTSpinKitWanderingCubesAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitWanderingCubesAnimation.m; path = SpinKit/Animations/RTSpinKitWanderingCubesAnimation.m; sourceTree = "<group>"; };
+		FA95D468D44F5853A7024677B5A45A42 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		FCDA5682F6FBEFE8AD9E6FF19ACEA28A /* RTSpinKitCircleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitCircleAnimation.m; path = SpinKit/Animations/RTSpinKitCircleAnimation.m; sourceTree = "<group>"; };
 		FD5D8BE6144E8C9B98BE8842BA1C5376 /* GMStoryVideoPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMStoryVideoPlayer-umbrella.h"; sourceTree = "<group>"; };
+		FEE3283A755BEA74396608BA1967C8D8 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C0E50B1123876D9ABAD6B1D431489355 /* Frameworks */ = {
+		3051F5C5E85736C68C884B4BFB4F62D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				592AF11B23A49E5178151D2EA523C229 /* Foundation.framework in Frameworks */,
+				76490407E58687E67224BA7C0D70A381 /* Foundation.framework in Frameworks */,
+				1DA8303E4A35C43F49212F39BB47539A /* SDWebImage.framework in Frameworks */,
+				27F236F5B70224621F494AF99E786CD1 /* SpinKit.framework in Frameworks */,
+				DE8787BF1E8CB990AF6D2E3E4F09497D /* VIMediaCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E21A9C2010F5BE1B7692DB67B678D6F0 /* Frameworks */ = {
+		48E7AFC38D21E4F62067C53C9ECB70CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43DFD1AF8219BB554468E1B1C18FB31 /* Foundation.framework in Frameworks */,
+				7C632BDB73936E08D404970A3C7ABB79 /* Foundation.framework in Frameworks */,
+				12167339C3BDE6290215F343B3477CE6 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEF52F992549DB8B5E06D10C1BD8B03E /* Frameworks */ = {
+		5BC5046879FB48E8AEB1FFE1962E24B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1362989C96C7CC84244EE73458C7F738 /* Foundation.framework in Frameworks */,
+				52DBAAADFE31F958A5A180313293C2CC /* AVFoundation.framework in Frameworks */,
+				F65947ACD670FC4A50784C04DC17BAE4 /* Foundation.framework in Frameworks */,
+				D5E145D31219D034AD939743E5E11A78 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC38DB4A9948F9FAAF632B3505E8A17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A63759CF24DC547C2492D8ACBB6075 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BDF463729E987FBEA6F37D3B99ED72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE797594860BD1A2C23C9940F9185096 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,31 +386,35 @@
 			path = "Example/Pods/Target Support Files/GMStoryVideoPlayer";
 			sourceTree = "<group>";
 		};
-		0E2A01DD909A112DAFBDAEA3810112FF /* Classes */ = {
+		074DE1FE25DF86B62B55B371ABCB1D9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				32DE49F1ACCAA8436F612BB9A6BA9A8B /* ReplaceMe.m */,
+				04E0087AAC96AF6BC289853B7C5E9F2C /* SDWebImage.framework */,
+				BD473821865FAB54AAEC4098C96999B1 /* SpinKit.framework */,
+				36C45B51B80E9713F17A24E867EB4B74 /* VIMediaCache.framework */,
+				E73277C610E9BF6804653D77163260B9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BB53453E50CA3F43EB6DD0A4F123C50 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50353EBC935670546521E1BB681B5356 /* GMStoryViewController.h */,
+				EEB3A909CCECC01305008C1940081828 /* GMStoryViewController.m */,
+				050CE08D83CB8AA0CCA1F3A342BFD212 /* GMVideoViewController.h */,
+				88BEB6537B66CD240EA9941FEF4BF67A /* GMVideoViewController.m */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		39CA74DF3241B006A26E253A06CA265C /* Pods-GMStoryVideoPlayer_Example */ = {
+		3AA62A0E84AD0EB34B281A71359F1206 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				954B9973C165A84D519AF23A05A74105 /* Info.plist */,
-				E163F96D10FCF2565964AD8AA37F34AF /* Pods-GMStoryVideoPlayer_Example.modulemap */,
-				4A2AABD0796E7F0D905DEC9C5BCE07B4 /* Pods-GMStoryVideoPlayer_Example-acknowledgements.markdown */,
-				16F7774A720ADF7D6303FFD12A3F42BA /* Pods-GMStoryVideoPlayer_Example-acknowledgements.plist */,
-				06B7B9B2BEA7C7A8DA9B052991F8ADAC /* Pods-GMStoryVideoPlayer_Example-dummy.m */,
-				8687C26F311C13B00EC353C0EF3C67FB /* Pods-GMStoryVideoPlayer_Example-frameworks.sh */,
-				330B0F75FFBF7895F670CA5D1988C195 /* Pods-GMStoryVideoPlayer_Example-resources.sh */,
-				B604C1ABBA0C8B5C4182484229AEC661 /* Pods-GMStoryVideoPlayer_Example-umbrella.h */,
-				030A86AE0F3EC3DE16F6DAE7428615EB /* Pods-GMStoryVideoPlayer_Example.debug.xcconfig */,
-				F653939C8E881CBB0C56D6926E247F41 /* Pods-GMStoryVideoPlayer_Example.release.xcconfig */,
+				ECBE3603330DB709F8C2F59354E4F5F0 /* Pods-GMStoryVideoPlayer_Example */,
 			);
-			name = "Pods-GMStoryVideoPlayer_Example";
-			path = "Target Support Files/Pods-GMStoryVideoPlayer_Example";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		3ABA7587F29C971915F12A1215373D65 /* Development Pods */ = {
@@ -141,21 +425,72 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		41241975D728BB7B62CF9E0078746311 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				B43C2C20B9C97F1292918DD64F646971 /* Info.plist */,
+				5382B6DF08BB6696606A438D4B9DC518 /* SpinKit.modulemap */,
+				3971AC8A0D0625D2ABED21FAFD2305E5 /* SpinKit.xcconfig */,
+				BB0D394B64CB78582227F7CBF5974A2C /* SpinKit-dummy.m */,
+				23CAD3E979BD053C58AA263B43EB3DC1 /* SpinKit-prefix.pch */,
+				DF24F25B24FCE2C0411BB1601AA5DD78 /* SpinKit-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/SpinKit";
 			sourceTree = "<group>";
 		};
-		7A3503454E09E15F73C6F21701A61059 /* GMStoryVideoPlayer */ = {
+		421028B328D20DD5BCFF6F5D37D75819 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E2A01DD909A112DAFBDAEA3810112FF /* Classes */,
+				5B6A66C6A281804618E388FFE9159A35 /* Info.plist */,
+				64D38C0C0EA80FF588C1C3B4267604DD /* VIMediaCache.modulemap */,
+				64313677B942283E8360096F235C461D /* VIMediaCache.xcconfig */,
+				4C4899A33B9B627AA95C5F7811A9E3E7 /* VIMediaCache-dummy.m */,
+				BF6BA0DEC7727C2FB0AB33D5C505943F /* VIMediaCache-prefix.pch */,
+				694753A3CADA066DB628A8F06E1C6161 /* VIMediaCache-umbrella.h */,
 			);
-			name = GMStoryVideoPlayer;
-			path = GMStoryVideoPlayer;
+			name = "Support Files";
+			path = "../Target Support Files/VIMediaCache";
+			sourceTree = "<group>";
+		};
+		616E8DFE96280A3AEDAD3DDC983130F5 /* VIMediaCache */ = {
+			isa = PBXGroup;
+			children = (
+				5E81F5FBCD55F785B9454C8FD20BA758 /* VICacheAction.h */,
+				95EA7157267EFD8BA91BA97D30DDCA31 /* VICacheAction.m */,
+				AB076846EAE9181210CB7251081E1198 /* VICacheConfiguration.h */,
+				E75737850298114EEA61D014EDBDDFE3 /* VICacheConfiguration.m */,
+				AAC932D0FC058491F6CBC03024B53670 /* VICacheManager.h */,
+				E5375A062181610D851E71E7161346D8 /* VICacheManager.m */,
+				627D1D2904F2E6F99E009698A324D3E7 /* VICacheSessionManager.h */,
+				CAF89EC1C18F4889959DCB444DF4B647 /* VICacheSessionManager.m */,
+				CCE96DB89BB3AAB3CAF329A548E4E4DF /* VIContentInfo.h */,
+				BCECA637FF443067B4D926208D03BF1D /* VIContentInfo.m */,
+				A6B8E5CC1E9655A9D91AA2EB23431249 /* VIMediaCache.h */,
+				14066C8560690D2440E70C01DEFF8607 /* VIMediaCacheWorker.h */,
+				6395534052C6FD02F3E1D3EE481745C3 /* VIMediaCacheWorker.m */,
+				4399CA9A44356956C27725A76B9EFC6B /* VIMediaDownloader.h */,
+				CD8AEC4C86405E91F98637C464368F27 /* VIMediaDownloader.m */,
+				03E9FB35DC45A3D14A0BC57F356E105D /* VIResourceLoader.h */,
+				36CA708AFDBB079A299CE02FF8D6BDBD /* VIResourceLoader.m */,
+				A69D49F13026D0D75E564402FF262E99 /* VIResourceLoaderManager.h */,
+				552AFB2027ADE18715BC0FC9044D3FB4 /* VIResourceLoaderManager.m */,
+				3C61D4C2FBEEE6E0A0EDA3371B33157A /* VIResourceLoadingRequestWorker.h */,
+				E1AA015A3DC6C08F99631907935147BF /* VIResourceLoadingRequestWorker.m */,
+				421028B328D20DD5BCFF6F5D37D75819 /* Support Files */,
+			);
+			name = VIMediaCache;
+			path = VIMediaCache;
+			sourceTree = "<group>";
+		};
+		6A186E6AB71688784361E130B0EA301F /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				97E66AFD8F0AAB3B7880480FAA81F1F6 /* Core */,
+				AE98BC7DB91A6C13A2BD904C6399424A /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -163,147 +498,368 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				3ABA7587F29C971915F12A1215373D65 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B7E2A328E359EE26AEC0E0F3EE74AD3F /* Products */,
-				97B6DC350BB3BEADA4EF17378E476098 /* Targets Support Files */,
+				074DE1FE25DF86B62B55B371ABCB1D9F /* Frameworks */,
+				FA846EDD84370DEC18CC6C86021D79FD /* Pods */,
+				FB511DF43699B966671339FD7B6AB16D /* Products */,
+				3AA62A0E84AD0EB34B281A71359F1206 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8C08F12A713F4CA0A986483F42B46EAE /* Pods-GMStoryVideoPlayer_Tests */ = {
+		8F5766F6FE711E0C43EDD0513DAC511A /* SpinKit */ = {
 			isa = PBXGroup;
 			children = (
-				4EE5BFDF65A6AC5A30A472CC75E97476 /* Info.plist */,
-				8A97E93D2F5287BA688CCE32C92505AE /* Pods-GMStoryVideoPlayer_Tests.modulemap */,
-				8C5F92F1CEC129973504BB18C50AD606 /* Pods-GMStoryVideoPlayer_Tests-acknowledgements.markdown */,
-				E0B1B2A41C56DF278EAD00B2B0A09507 /* Pods-GMStoryVideoPlayer_Tests-acknowledgements.plist */,
-				F6BD29CB02EB5CD64ED229CEC00FD0F6 /* Pods-GMStoryVideoPlayer_Tests-dummy.m */,
-				6870A5B7D1345D14FB8891404D805EF2 /* Pods-GMStoryVideoPlayer_Tests-frameworks.sh */,
-				22F4EAA15F8A39F6B414E4E84EF5C293 /* Pods-GMStoryVideoPlayer_Tests-resources.sh */,
-				885B24761B0C0DA0286CEA519FB6563D /* Pods-GMStoryVideoPlayer_Tests-umbrella.h */,
-				A18578ED4AAAE98C3ECEC0E3D8BC271F /* Pods-GMStoryVideoPlayer_Tests.debug.xcconfig */,
-				5877880520477F6A050DA909E0F9250B /* Pods-GMStoryVideoPlayer_Tests.release.xcconfig */,
+				2C33D479151EBEFE00252F315392A613 /* RTSpinKit9CubeGridAnimation.h */,
+				A04B3A652654103E007B4F116D60359A /* RTSpinKit9CubeGridAnimation.m */,
+				6DAB3CDDF747B8876A6B7822FC070C2B /* RTSpinKitAnimating.h */,
+				AE30FF00F87131F56BA7BB1EDCE756E5 /* RTSpinKitArcAltAnimation.h */,
+				D6723147D4199120CAB79D3BA9A12804 /* RTSpinKitArcAltAnimation.m */,
+				498F1E9300B4946B64798E1F7E783257 /* RTSpinKitArcAnimation.h */,
+				4DD9A2E302100EAC8EAAF79E436EFE03 /* RTSpinKitArcAnimation.m */,
+				F22E6B785BC8F2F5CC266C4312B9C0CC /* RTSpinKitBounceAnimation.h */,
+				6E15FDC365785193DEABAFED3B1D98DF /* RTSpinKitBounceAnimation.m */,
+				37F44C326867C789FD3DC4E87322F40E /* RTSpinKitChasingDotsAnimation.h */,
+				8DCF33EF40F9D6092515E8F399393B89 /* RTSpinKitChasingDotsAnimation.m */,
+				1D8EC0FDF6E079B326AF4F78E325FE23 /* RTSpinKitCircleAnimation.h */,
+				FCDA5682F6FBEFE8AD9E6FF19ACEA28A /* RTSpinKitCircleAnimation.m */,
+				3E1495C74E7308DFE16F577A25D35D08 /* RTSpinKitCircleFlipAnimation.h */,
+				CC82A9FF624F76E1BB6055B074B92E22 /* RTSpinKitCircleFlipAnimation.m */,
+				0CF42F2E28F2E6BAA3F52F883932CE4F /* RTSpinKitFadingCircleAltAnimation.h */,
+				A3BA2214958E2155AD76346966BA123A /* RTSpinKitFadingCircleAltAnimation.m */,
+				E9ACDE4355E0D71270B79BFE1C74E574 /* RTSpinKitFadingCircleAnimation.h */,
+				EE2A3B9C453DED14A328BFA6C83A435E /* RTSpinKitFadingCircleAnimation.m */,
+				EC0676D7F1D4192E780245741C225F3D /* RTSpinKitPlaneAnimation.h */,
+				6605E49F821903D92CD026A3A108AB30 /* RTSpinKitPlaneAnimation.m */,
+				8A72956774709D52C6E9F194731D991D /* RTSpinKitPulseAnimation.h */,
+				64C8C2D613904031AAEACA1F5E077949 /* RTSpinKitPulseAnimation.m */,
+				01331FC32BE95FECAA797F5207CE3B9D /* RTSpinKitThreeBounceAnimation.h */,
+				DF3283AA6C7BDA0E40807C783DAA47E2 /* RTSpinKitThreeBounceAnimation.m */,
+				B54410650213C03B1144797B6B92867E /* RTSpinKitUtils.h */,
+				67645835E507075609D85CF5A91E8F7D /* RTSpinKitUtils.m */,
+				69ABEF1BE8F0E750290FB71D8F7F7EB3 /* RTSpinKitView.h */,
+				C14EDD24D5A17DD3890AF28B8D2CCA18 /* RTSpinKitView.m */,
+				E21026F38E5E532FB0DC6EEF811434FB /* RTSpinKitWanderingCubesAnimation.h */,
+				F4B8A1C183352F0E43BE718ED5D8AFC4 /* RTSpinKitWanderingCubesAnimation.m */,
+				35E269C0EF697507DCA942163559993A /* RTSpinKitWaveAnimation.h */,
+				012B2675C4B241C9A808B373EA2E01A6 /* RTSpinKitWaveAnimation.m */,
+				0373465B9BC6DC11002B36D73397317D /* RTSpinKitWordPressAnimation.h */,
+				A64A026A8F12EB46B4FF80A55B090350 /* RTSpinKitWordPressAnimation.m */,
+				41241975D728BB7B62CF9E0078746311 /* Support Files */,
 			);
-			name = "Pods-GMStoryVideoPlayer_Tests";
-			path = "Target Support Files/Pods-GMStoryVideoPlayer_Tests";
+			name = SpinKit;
+			path = SpinKit;
 			sourceTree = "<group>";
 		};
-		97B6DC350BB3BEADA4EF17378E476098 /* Targets Support Files */ = {
+		97E66AFD8F0AAB3B7880480FAA81F1F6 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				39CA74DF3241B006A26E253A06CA265C /* Pods-GMStoryVideoPlayer_Example */,
-				8C08F12A713F4CA0A986483F42B46EAE /* Pods-GMStoryVideoPlayer_Tests */,
+				E5F636AF643F271B3C327D5E13CCEF23 /* NSData+ImageContentType.h */,
+				41357272FB33D63456C4A74172DAFC88 /* NSData+ImageContentType.m */,
+				6E05990D95BB555A68852354D45CB009 /* NSImage+WebCache.h */,
+				3A301D757C40D0D96DF07E166A0BE019 /* NSImage+WebCache.m */,
+				B619DFBABB4312C4D63A010A7D05F739 /* SDImageCache.h */,
+				0B63509C925D89ADC89FE31A0F23D533 /* SDImageCache.m */,
+				0507875CBA0218BDF998426A1FB003DB /* SDImageCacheConfig.h */,
+				3B2D81F82CCA31B469559A1AC60D9B1B /* SDImageCacheConfig.m */,
+				E6A44F3F474D459F05777B4604DDC1EB /* SDWebImageCompat.h */,
+				E485300DE700CB654BD67DF40EA14EFA /* SDWebImageCompat.m */,
+				F2C0F8DF5FD7940D5EC1A0617036D8C0 /* SDWebImageDecoder.h */,
+				AF0DA1D4619E8F7AD142B60E021A1996 /* SDWebImageDecoder.m */,
+				04C38009F0A8EF882058ADD5D1C37219 /* SDWebImageDownloader.h */,
+				1487AD2EB92FBD65B00C1F22C5EBF755 /* SDWebImageDownloader.m */,
+				B8EE19AD63D1F4CA2E807B66B0AA7F55 /* SDWebImageDownloaderOperation.h */,
+				836F0A6C70B1CF474A8676AF741972C2 /* SDWebImageDownloaderOperation.m */,
+				6CAA44476D867CA62F70FE700CB9628A /* SDWebImageManager.h */,
+				A5FC24516DEF56211AAB0D94DC1B2AC6 /* SDWebImageManager.m */,
+				527315B70D402A1B9B6F49D6E97A5D96 /* SDWebImageOperation.h */,
+				81E70707BC97F6F3633206E1195BF7C9 /* SDWebImagePrefetcher.h */,
+				C51414704161B515F54139DB583D3E1E /* SDWebImagePrefetcher.m */,
+				66B54C3B32589646C160DDF561727248 /* UIButton+WebCache.h */,
+				ED54DF7548DC18C33B2FAD8FF5B36D32 /* UIButton+WebCache.m */,
+				CB9DC5F90EE4840DA0E6626FDC7B35F7 /* UIImage+GIF.h */,
+				6F5A48E878338C9948823AAE86C20F16 /* UIImage+GIF.m */,
+				47A0309D37446AE90E05611E2FF225F2 /* UIImage+MultiFormat.h */,
+				6F582D69BA3F1DA2D1D31E5BF5E69A8D /* UIImage+MultiFormat.m */,
+				6A72C1634EF0F149E2BE64471317E220 /* UIImageView+HighlightedWebCache.h */,
+				4C27DB1C5584037666CD35F1BC599B34 /* UIImageView+HighlightedWebCache.m */,
+				FEE3283A755BEA74396608BA1967C8D8 /* UIImageView+WebCache.h */,
+				664E83D4FFC251F8463EEB0D4F74E07F /* UIImageView+WebCache.m */,
+				2AC79688E075E4637A2F9A61E4E86872 /* UIView+WebCache.h */,
+				1C570082E38873338A38816A6B9AA003 /* UIView+WebCache.m */,
+				55550E69F756F9006F5C77E12A387619 /* UIView+WebCacheOperation.h */,
+				3F045F413E3F9B26380C8EF968AD64CF /* UIView+WebCacheOperation.m */,
 			);
-			name = "Targets Support Files";
+			name = Core;
 			sourceTree = "<group>";
 		};
-		B7E2A328E359EE26AEC0E0F3EE74AD3F /* Products */ = {
+		AE98BC7DB91A6C13A2BD904C6399424A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				003901191DCB1751D0D3C50C93181AC5 /* GMStoryVideoPlayer.framework */,
-				C1CE6AB3BBAC50C683C61832AB59C456 /* Pods_GMStoryVideoPlayer_Example.framework */,
-				DB7D6D639304624CB8BD3F45F5517CF6 /* Pods_GMStoryVideoPlayer_Tests.framework */,
+				DC2B10916EC4F362FE0FA6BF3260630B /* Info.plist */,
+				8CD5DB736A5BE956E4262578A25511E9 /* SDWebImage.modulemap */,
+				1C9C91F958DC8F62AFFBDC7395617AEE /* SDWebImage.xcconfig */,
+				FA95D468D44F5853A7024677B5A45A42 /* SDWebImage-dummy.m */,
+				B9B47C33D38D2B4811CFF1A89878A127 /* SDWebImage-prefix.pch */,
+				05B08677F39CB0613E3960ED7520EA31 /* SDWebImage-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		BAF6224D52AF6163C3C144D33C2BB41E /* GMStoryVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				0BB53453E50CA3F43EB6DD0A4F123C50 /* Classes */,
 			);
-			name = Frameworks;
+			name = GMStoryVideoPlayer;
+			path = GMStoryVideoPlayer;
 			sourceTree = "<group>";
 		};
 		CDF9D09B92F86AFB28049929239F7C92 /* GMStoryVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				7A3503454E09E15F73C6F21701A61059 /* GMStoryVideoPlayer */,
+				BAF6224D52AF6163C3C144D33C2BB41E /* GMStoryVideoPlayer */,
 				03C6E86906E20D46A282966F52A92434 /* Support Files */,
 			);
 			name = GMStoryVideoPlayer;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		E73277C610E9BF6804653D77163260B9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				138DB0A0D41F8B04E60A9BA9E82F2E94 /* AVFoundation.framework */,
+				1FC32F0D7DC7A2C52787BF44F935D7CA /* Foundation.framework */,
+				02F4FB7D8A046A556AB8486B3F9995ED /* ImageIO.framework */,
+				4DECF46B1D45D3FA799B5E52BD6E5D19 /* MobileCoreServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ECBE3603330DB709F8C2F59354E4F5F0 /* Pods-GMStoryVideoPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BAAAB17F32DE74831FCEE8479878F813 /* Info.plist */,
+				DE6DF01E46BA533367A5E5CB43FF6710 /* Pods-GMStoryVideoPlayer_Example.modulemap */,
+				24AE5B0F1B010D5A675A43D2466553D9 /* Pods-GMStoryVideoPlayer_Example-acknowledgements.markdown */,
+				C8D5941B190AB027DB62B29AB38DBE43 /* Pods-GMStoryVideoPlayer_Example-acknowledgements.plist */,
+				7E2C968CD722B4F36B5E95EB7C05DB79 /* Pods-GMStoryVideoPlayer_Example-dummy.m */,
+				80538F0A55FD697FA0B057817971969A /* Pods-GMStoryVideoPlayer_Example-frameworks.sh */,
+				C6F60F6957FD5F0E1040289BE8AECB43 /* Pods-GMStoryVideoPlayer_Example-resources.sh */,
+				31357D608810FFF4FE397BAE7AA4B3BC /* Pods-GMStoryVideoPlayer_Example-umbrella.h */,
+				A083CA439A0057DDDDCF3A726AB9C080 /* Pods-GMStoryVideoPlayer_Example.debug.xcconfig */,
+				A0A0C245212CDC8FA40CE3B6BDA2AB07 /* Pods-GMStoryVideoPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-GMStoryVideoPlayer_Example";
+			path = "Target Support Files/Pods-GMStoryVideoPlayer_Example";
+			sourceTree = "<group>";
+		};
+		FA846EDD84370DEC18CC6C86021D79FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A186E6AB71688784361E130B0EA301F /* SDWebImage */,
+				8F5766F6FE711E0C43EDD0513DAC511A /* SpinKit */,
+				616E8DFE96280A3AEDAD3DDC983130F5 /* VIMediaCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB511DF43699B966671339FD7B6AB16D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D08C5EE46ABEC20467ED27B1EC956B6 /* GMStoryVideoPlayer.framework */,
+				A671BABB1435BCAC9B40FC7C82091B37 /* Pods_GMStoryVideoPlayer_Example.framework */,
+				B7BF77291D0380145A69824B208DBD3E /* SDWebImage.framework */,
+				35FEB9A0BFBA805554D764A45C20C1F7 /* SpinKit.framework */,
+				6896D8BFDA81D9DBF90FAABE8F4213DE /* VIMediaCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		09FE10AC27AF1AE9C0F820735991B3D3 /* Headers */ = {
+		1D8CAD04B34C519FA96B76D417E514BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4824F1EF6E40BAEFF83752E5C1A6AB62 /* Pods-GMStoryVideoPlayer_Tests-umbrella.h in Headers */,
+				5AFEEB35256C6FAD2B21573ADC2E90D6 /* Pods-GMStoryVideoPlayer_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7988DD8F81E66426781E541D068C49D7 /* Headers */ = {
+		4E6B9EDF3D927A6E5633E2DA357CEF7E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B8BAB2C2E9943FA3FC05BA92C1C1DC /* Pods-GMStoryVideoPlayer_Example-umbrella.h in Headers */,
+				A916006208927EE4FB70FD212E8C175E /* GMStoryVideoPlayer-umbrella.h in Headers */,
+				59D7D616866A66C5CB4E21FACECF328B /* GMStoryViewController.h in Headers */,
+				E4EBAA738D7143DA6B9A6B45E4A31AE0 /* GMVideoViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E36D9D77CE1F5297E2E2FDDCA3ED8FCD /* Headers */ = {
+		5EFC2CEBADF16B0603AF649B810A92C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B395E2E4592815A75AF573908C67F43D /* GMStoryVideoPlayer-umbrella.h in Headers */,
+				3077D239CDB38AA803F11F198448BF1D /* NSData+ImageContentType.h in Headers */,
+				EA5E3B5C51FFD821FA1A9965DB06E2D0 /* NSImage+WebCache.h in Headers */,
+				60C74AAC021D812EAC3F16AAFAD66D41 /* SDImageCache.h in Headers */,
+				3671B0F6A6BFD820895F6FBD6349CD00 /* SDImageCacheConfig.h in Headers */,
+				9C893864FDFBCFADC5D6E7D64396EDCA /* SDWebImage-umbrella.h in Headers */,
+				042A873A531EF07A9117976736B728B7 /* SDWebImageCompat.h in Headers */,
+				392CEA91BF156E32CD954276DF4A12F4 /* SDWebImageDecoder.h in Headers */,
+				02BEDB8C86B3B9A0C8AFE7D118226D48 /* SDWebImageDownloader.h in Headers */,
+				33465D857866A60DCA25A95C25E981C0 /* SDWebImageDownloaderOperation.h in Headers */,
+				FD7E9375AA9524F9F7BDBAB4BE6C8483 /* SDWebImageManager.h in Headers */,
+				6381F2C75FEA1AA77945E4768D01812B /* SDWebImageOperation.h in Headers */,
+				5F13812D178964B85D2A927D2A16F353 /* SDWebImagePrefetcher.h in Headers */,
+				16767BE1360B9197222370B188720940 /* UIButton+WebCache.h in Headers */,
+				6BA836838C56A27DF315F8BDB47A6307 /* UIImage+GIF.h in Headers */,
+				FE25F578AA1E7FA852A643D3E0D178B8 /* UIImage+MultiFormat.h in Headers */,
+				181CF8ACCA034D90FE1BB69ECE47520B /* UIImageView+HighlightedWebCache.h in Headers */,
+				F558E30E4EF4849D8E0A1AC8BA3803AA /* UIImageView+WebCache.h in Headers */,
+				10C25D4D8C48F13F0C26B0E759F37126 /* UIView+WebCache.h in Headers */,
+				A1941A5D0DB60D245C6558992B824BAE /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722AD38AF9EEADF2FEE0547178BB8C5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5214CFC0B39E696B5E2B72EAF0A1FF9 /* VICacheAction.h in Headers */,
+				BCF5D7C1595B32A4D96D0354E351C96F /* VICacheConfiguration.h in Headers */,
+				951448090127D48D05DE0800032B2A93 /* VICacheManager.h in Headers */,
+				6BB6858981CAE414097C3C289DC4C1A7 /* VICacheSessionManager.h in Headers */,
+				9CDE414314F21676B8830FECC9204D0A /* VIContentInfo.h in Headers */,
+				72BF848BC968BF4EF5455306DBA58547 /* VIMediaCache-umbrella.h in Headers */,
+				9C7B79FCD4B0D214BE18D1F09BD7A4BC /* VIMediaCache.h in Headers */,
+				CFE3160276674D5A87BA0DF97D421595 /* VIMediaCacheWorker.h in Headers */,
+				2D71CD9046E7C2AA6F758FA05E1C2051 /* VIMediaDownloader.h in Headers */,
+				D3F394295C3C1AF7E7F2102120D26520 /* VIResourceLoader.h in Headers */,
+				B3E79ED6142761D9850011DA26A46611 /* VIResourceLoaderManager.h in Headers */,
+				782C3D1CBF25EFB582C8F24DB894B35F /* VIResourceLoadingRequestWorker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1013DFBF45080994EC38AA8232845BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B0321E33222B784B1113F39BD777D1 /* RTSpinKit9CubeGridAnimation.h in Headers */,
+				AC8203883759F466F1F9D00E6FCAC0B2 /* RTSpinKitAnimating.h in Headers */,
+				E9DB34733E993B88EC31BCE65ABC479A /* RTSpinKitArcAltAnimation.h in Headers */,
+				677052A0FE38D532E85FA494D777B949 /* RTSpinKitArcAnimation.h in Headers */,
+				0E5D390129ABB1B8F5DF0FB912C8435B /* RTSpinKitBounceAnimation.h in Headers */,
+				5C7B7AA124319CF7767267DD1EE9A370 /* RTSpinKitChasingDotsAnimation.h in Headers */,
+				AFA02120613B13DC8169A458470C6AE6 /* RTSpinKitCircleAnimation.h in Headers */,
+				6F6537DBE9ECCC72180739779DEC8CAD /* RTSpinKitCircleFlipAnimation.h in Headers */,
+				581FA2C0B19C28653A63D9731320E809 /* RTSpinKitFadingCircleAltAnimation.h in Headers */,
+				D4F28D2D6CBC2F1F16C9EAF045678DB2 /* RTSpinKitFadingCircleAnimation.h in Headers */,
+				EEE59D8917FF2C214EE2EFDCFAACBDDB /* RTSpinKitPlaneAnimation.h in Headers */,
+				9A0CDC7DDFC4D7118C260F0F69AB5D0D /* RTSpinKitPulseAnimation.h in Headers */,
+				EBF9DF230B195DC8E7C434778F9C2D4F /* RTSpinKitThreeBounceAnimation.h in Headers */,
+				E7D39CDAC496D304C9AC4E6AC87827A9 /* RTSpinKitUtils.h in Headers */,
+				9FA043FF875F19A863482C86C8E1D21E /* RTSpinKitView.h in Headers */,
+				40F9BFBADDFC0097C3CBC5400F773F55 /* RTSpinKitWanderingCubesAnimation.h in Headers */,
+				01555E74744987691BAA30044FFDAFB0 /* RTSpinKitWaveAnimation.h in Headers */,
+				4B1B502B54E8E4EE784B2643E37C9C1D /* RTSpinKitWordPressAnimation.h in Headers */,
+				4661B60147F849B9421746335BD89B39 /* SpinKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		605AF5F7C8EEB3BE30344A781CD32235 /* GMStoryVideoPlayer */ = {
+		13744DF220319FF82F267F467DC93E7A /* GMStoryVideoPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 945C49117D95BE68EA8859AAE78E5A4E /* Build configuration list for PBXNativeTarget "GMStoryVideoPlayer" */;
+			buildConfigurationList = DAC4CBA3673D0F9B25465E8A4EDBF558 /* Build configuration list for PBXNativeTarget "GMStoryVideoPlayer" */;
 			buildPhases = (
-				1C18595DFC7B31DE1D02B6BD2D8E60CF /* Sources */,
-				EEF52F992549DB8B5E06D10C1BD8B03E /* Frameworks */,
-				E36D9D77CE1F5297E2E2FDDCA3ED8FCD /* Headers */,
+				43E76BA1079CD7F976DEFA9A6C49575A /* Sources */,
+				3051F5C5E85736C68C884B4BFB4F62D5 /* Frameworks */,
+				4E6B9EDF3D927A6E5633E2DA357CEF7E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				88DDA5EB9983ED21407211D93F01C55A /* PBXTargetDependency */,
+				A83EC153A2514A40F0DAB064E718F87E /* PBXTargetDependency */,
+				D3153A62E0065761003479616BC645D2 /* PBXTargetDependency */,
 			);
 			name = GMStoryVideoPlayer;
 			productName = GMStoryVideoPlayer;
-			productReference = 003901191DCB1751D0D3C50C93181AC5 /* GMStoryVideoPlayer.framework */;
+			productReference = 4D08C5EE46ABEC20467ED27B1EC956B6 /* GMStoryVideoPlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		68FAD5DBE0E428BC7E0CD0B91272BE94 /* Pods-GMStoryVideoPlayer_Example */ = {
+		18248C04CFA3755DDE0331A94AE6066C /* VIMediaCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01AC701EB42E0D45DB504662C021FEFB /* Build configuration list for PBXNativeTarget "Pods-GMStoryVideoPlayer_Example" */;
+			buildConfigurationList = E1C175274149264EF57556A3EF0F39D8 /* Build configuration list for PBXNativeTarget "VIMediaCache" */;
 			buildPhases = (
-				B34534E5B1CBF3550F41869BDC30FA24 /* Sources */,
-				E21A9C2010F5BE1B7692DB67B678D6F0 /* Frameworks */,
-				7988DD8F81E66426781E541D068C49D7 /* Headers */,
+				F04954A28B0DBC9BA83AC1B14CF71A9C /* Sources */,
+				5BC5046879FB48E8AEB1FFE1962E24B5 /* Frameworks */,
+				722AD38AF9EEADF2FEE0547178BB8C5F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				32B62A62C519F6E2DF310C04B98E9C16 /* PBXTargetDependency */,
+			);
+			name = VIMediaCache;
+			productName = VIMediaCache;
+			productReference = 6896D8BFDA81D9DBF90FAABE8F4213DE /* VIMediaCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AEDC6E5DCFB6B65DC70CAD625C75EBF /* SpinKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3228B8A65899711B651AD14992A037A4 /* Build configuration list for PBXNativeTarget "SpinKit" */;
+			buildPhases = (
+				2C54A9F31FDCD92702BCAE7E8B96E2C6 /* Sources */,
+				E2BDF463729E987FBEA6F37D3B99ED72 /* Frameworks */,
+				B1013DFBF45080994EC38AA8232845BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinKit;
+			productName = SpinKit;
+			productReference = 35FEB9A0BFBA805554D764A45C20C1F7 /* SpinKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		913652B8F40A80383B64E30986EA1E78 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622FED42A52E2985B96C665616EAD361 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				D53404FC568B2F32097B350CF494266D /* Sources */,
+				48E7AFC38D21E4F62067C53C9ECB70CD /* Frameworks */,
+				5EFC2CEBADF16B0603AF649B810A92C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = B7BF77291D0380145A69824B208DBD3E /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD4280E504FF3A10C7F98FE85AF99931 /* Pods-GMStoryVideoPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B96F4F3D90FFF729F0CD672B2608E51 /* Build configuration list for PBXNativeTarget "Pods-GMStoryVideoPlayer_Example" */;
+			buildPhases = (
+				2B122FD041BB9162ABDD51D1EFA44C83 /* Sources */,
+				BC38DB4A9948F9FAAF632B3505E8A17D /* Frameworks */,
+				1D8CAD04B34C519FA96B76D417E514BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953B85CA53E3C0A813BECF87035DF51D /* PBXTargetDependency */,
+				E40E8E84198E8C4CFA0119912D1DA45E /* PBXTargetDependency */,
+				F0F680A075C4842348E1D087B9D1819D /* PBXTargetDependency */,
+				6118F4561EA50B02E0DD57EA23D0A61B /* PBXTargetDependency */,
 			);
 			name = "Pods-GMStoryVideoPlayer_Example";
 			productName = "Pods-GMStoryVideoPlayer_Example";
-			productReference = C1CE6AB3BBAC50C683C61832AB59C456 /* Pods_GMStoryVideoPlayer_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9A24BC9BA8278D5F3D47A32A49DB2AC0 /* Pods-GMStoryVideoPlayer_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1B25136FF566A63C9B846A8B0910AEC0 /* Build configuration list for PBXNativeTarget "Pods-GMStoryVideoPlayer_Tests" */;
-			buildPhases = (
-				EB7F8DA3DA81E9BF8D8FF2A6DE20D79E /* Sources */,
-				C0E50B1123876D9ABAD6B1D431489355 /* Frameworks */,
-				09FE10AC27AF1AE9C0F820735991B3D3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-GMStoryVideoPlayer_Tests";
-			productName = "Pods-GMStoryVideoPlayer_Tests";
-			productReference = DB7D6D639304624CB8BD3F45F5517CF6 /* Pods_GMStoryVideoPlayer_Tests.framework */;
+			productReference = A671BABB1435BCAC9B40FC7C82091B37 /* Pods_GMStoryVideoPlayer_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -323,96 +879,221 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B7E2A328E359EE26AEC0E0F3EE74AD3F /* Products */;
+			productRefGroup = FB511DF43699B966671339FD7B6AB16D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				605AF5F7C8EEB3BE30344A781CD32235 /* GMStoryVideoPlayer */,
-				68FAD5DBE0E428BC7E0CD0B91272BE94 /* Pods-GMStoryVideoPlayer_Example */,
-				9A24BC9BA8278D5F3D47A32A49DB2AC0 /* Pods-GMStoryVideoPlayer_Tests */,
+				13744DF220319FF82F267F467DC93E7A /* GMStoryVideoPlayer */,
+				DD4280E504FF3A10C7F98FE85AF99931 /* Pods-GMStoryVideoPlayer_Example */,
+				913652B8F40A80383B64E30986EA1E78 /* SDWebImage */,
+				8AEDC6E5DCFB6B65DC70CAD625C75EBF /* SpinKit */,
+				18248C04CFA3755DDE0331A94AE6066C /* VIMediaCache */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C18595DFC7B31DE1D02B6BD2D8E60CF /* Sources */ = {
+		2B122FD041BB9162ABDD51D1EFA44C83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EDA43646F8DF97E2C816198B9DE72E8 /* GMStoryVideoPlayer-dummy.m in Sources */,
-				00B6473B9DEEB37781C15D5BC751CC7C /* ReplaceMe.m in Sources */,
+				C9E8645888DC4BCF695789D8820E07A4 /* Pods-GMStoryVideoPlayer_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B34534E5B1CBF3550F41869BDC30FA24 /* Sources */ = {
+		2C54A9F31FDCD92702BCAE7E8B96E2C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7021A2318B57D488C706881AB15CDCBC /* Pods-GMStoryVideoPlayer_Example-dummy.m in Sources */,
+				F49B3F578A5E898FCF803055146D55AD /* RTSpinKit9CubeGridAnimation.m in Sources */,
+				6D4A5CAD52E6DE9B62C931CA976BD60D /* RTSpinKitArcAltAnimation.m in Sources */,
+				795CF7E6D0D30E1837BC904A884D4D36 /* RTSpinKitArcAnimation.m in Sources */,
+				5FD4113F3B31EE0547D564D2A03BBB99 /* RTSpinKitBounceAnimation.m in Sources */,
+				34CBC728558E01AEEE566F15BDF68417 /* RTSpinKitChasingDotsAnimation.m in Sources */,
+				8AEAA4B7163945DA7E365CAE1E959832 /* RTSpinKitCircleAnimation.m in Sources */,
+				E5078D03750C1437BED33B96B74945B0 /* RTSpinKitCircleFlipAnimation.m in Sources */,
+				25DB90FDE03EA14042E6C57AB7A0DEA9 /* RTSpinKitFadingCircleAltAnimation.m in Sources */,
+				F6A652720B2613A840FAA68BD54C16FA /* RTSpinKitFadingCircleAnimation.m in Sources */,
+				098F07F71573808E804A345990B48AFC /* RTSpinKitPlaneAnimation.m in Sources */,
+				6661C2D89901648C7E27B530084CE9E0 /* RTSpinKitPulseAnimation.m in Sources */,
+				37AB02789B07388DDADDF4E9C76B61D7 /* RTSpinKitThreeBounceAnimation.m in Sources */,
+				EBE56095018D0F6475419378F8B74F5B /* RTSpinKitUtils.m in Sources */,
+				17E0962A139B2506E7775656EDD6E0F2 /* RTSpinKitView.m in Sources */,
+				C31D454D210457D1CD303DED99AB9169 /* RTSpinKitWanderingCubesAnimation.m in Sources */,
+				77C394AD28CDA6DC32A35499D74D8478 /* RTSpinKitWaveAnimation.m in Sources */,
+				83F41BDC8AC22FA137CD3A8F59E09740 /* RTSpinKitWordPressAnimation.m in Sources */,
+				8E8D7E21C8EF5B150C3C38C203557A88 /* SpinKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB7F8DA3DA81E9BF8D8FF2A6DE20D79E /* Sources */ = {
+		43E76BA1079CD7F976DEFA9A6C49575A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B9EBB105BD6BEB0A0814EC30BC8A0BF /* Pods-GMStoryVideoPlayer_Tests-dummy.m in Sources */,
+				DED8C439015B2CB0CF7E3D6612994D56 /* GMStoryVideoPlayer-dummy.m in Sources */,
+				14F4F2D740C62037304DD3386DB9049A /* GMStoryViewController.m in Sources */,
+				0636CA432E7A235664A41826983B6145 /* GMVideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53404FC568B2F32097B350CF494266D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CBA34F2FDF3DBBE0E321BA6013C49F /* NSData+ImageContentType.m in Sources */,
+				7F57FD066D0D3F0E330265DF2187B70F /* NSImage+WebCache.m in Sources */,
+				55FB25CE3EB226E3BD5C2362D805BFBC /* SDImageCache.m in Sources */,
+				C31F5306618EB4ADBA20D608CEC571F0 /* SDImageCacheConfig.m in Sources */,
+				FEA92B656C33A50349E8623E99B13CFF /* SDWebImage-dummy.m in Sources */,
+				94643102B8116C9C391B23511D65F42E /* SDWebImageCompat.m in Sources */,
+				AE204DFF737CFFFC262B61254039D32B /* SDWebImageDecoder.m in Sources */,
+				88FC54C98C629A4678B07E8C718379ED /* SDWebImageDownloader.m in Sources */,
+				F37F08C071F493225BB03B8A3888FE25 /* SDWebImageDownloaderOperation.m in Sources */,
+				17949FFDDF75BF28E5DB67725957FFDD /* SDWebImageManager.m in Sources */,
+				F28E77ACCC4086FC1F01506E76C54791 /* SDWebImagePrefetcher.m in Sources */,
+				85A113A7D8501197836D726B32DAA2FD /* UIButton+WebCache.m in Sources */,
+				6C0015D0F249702E807B618F8BDB7935 /* UIImage+GIF.m in Sources */,
+				0ECB658E693ABD1538EBADE37CFCB8D1 /* UIImage+MultiFormat.m in Sources */,
+				BB7FADD4E66DD9CC3E455C36732D0249 /* UIImageView+HighlightedWebCache.m in Sources */,
+				139031D3557041A8CBAB14A23847F164 /* UIImageView+WebCache.m in Sources */,
+				36A774F28B369F662AE8CA5DC6E3B10E /* UIView+WebCache.m in Sources */,
+				7111F8775DB14C0159BDECC286393AE8 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04954A28B0DBC9BA83AC1B14CF71A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500B665DE6EF995F8184C3663C90BFCB /* VICacheAction.m in Sources */,
+				B5F28EE0EA494DDE63239B0B81747EAC /* VICacheConfiguration.m in Sources */,
+				6644FABB67F4284F203BA2498C044870 /* VICacheManager.m in Sources */,
+				DBA78BDD4D3D3C328275995827F2991C /* VICacheSessionManager.m in Sources */,
+				9E54B1E91E6A819CB355C0E9763FE12A /* VIContentInfo.m in Sources */,
+				C94572D0592DDE0BE0DECDB78CFD9F00 /* VIMediaCache-dummy.m in Sources */,
+				E8DE55A554335C7FDD89F1AF79FF49A1 /* VIMediaCacheWorker.m in Sources */,
+				385986C4AFA5EBC2029F3F0071931C96 /* VIMediaDownloader.m in Sources */,
+				BA7E4B543327A438740D7B8368F12974 /* VIResourceLoader.m in Sources */,
+				3879726A9465E590543A3F22BE5686BF /* VIResourceLoaderManager.m in Sources */,
+				03C86D47E6D3CE0FD1E0B78EF093E6AE /* VIResourceLoadingRequestWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		32B62A62C519F6E2DF310C04B98E9C16 /* PBXTargetDependency */ = {
+		6118F4561EA50B02E0DD57EA23D0A61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VIMediaCache;
+			target = 18248C04CFA3755DDE0331A94AE6066C /* VIMediaCache */;
+			targetProxy = 83B961404DDAAC0EDFFF7D27C5697F50 /* PBXContainerItemProxy */;
+		};
+		88DDA5EB9983ED21407211D93F01C55A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 913652B8F40A80383B64E30986EA1E78 /* SDWebImage */;
+			targetProxy = 3E3D199450056556DAD130C494BEFAD0 /* PBXContainerItemProxy */;
+		};
+		953B85CA53E3C0A813BECF87035DF51D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GMStoryVideoPlayer;
-			target = 605AF5F7C8EEB3BE30344A781CD32235 /* GMStoryVideoPlayer */;
-			targetProxy = D179BD37DB15F8819DAAF1711C414096 /* PBXContainerItemProxy */;
+			target = 13744DF220319FF82F267F467DC93E7A /* GMStoryVideoPlayer */;
+			targetProxy = 9340CD9CDFBC2F9596832CD4C3B33F66 /* PBXContainerItemProxy */;
+		};
+		A83EC153A2514A40F0DAB064E718F87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpinKit;
+			target = 8AEDC6E5DCFB6B65DC70CAD625C75EBF /* SpinKit */;
+			targetProxy = 28FB334925BF4460A77E59F876A9828B /* PBXContainerItemProxy */;
+		};
+		D3153A62E0065761003479616BC645D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VIMediaCache;
+			target = 18248C04CFA3755DDE0331A94AE6066C /* VIMediaCache */;
+			targetProxy = E61DCE2B644FB5724121B3DF04C46A44 /* PBXContainerItemProxy */;
+		};
+		E40E8E84198E8C4CFA0119912D1DA45E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 913652B8F40A80383B64E30986EA1E78 /* SDWebImage */;
+			targetProxy = C706976D5F3957FD8983CD7392C4695E /* PBXContainerItemProxy */;
+		};
+		F0F680A075C4842348E1D087B9D1819D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpinKit;
+			target = 8AEDC6E5DCFB6B65DC70CAD625C75EBF /* SpinKit */;
+			targetProxy = DED40DB6FDA358A322F25C9027036823 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		021EA39E472D7432A7CA822BAB7BD5E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A0C245212CDC8FA40CE3B6BDA2AB07 /* Pods-GMStoryVideoPlayer_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Example/Pods-GMStoryVideoPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GMStoryVideoPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		084649C92F7193DFBC7E3B0189B72033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64313677B942283E8360096F235C461D /* VIMediaCache.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VIMediaCache/VIMediaCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VIMediaCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VIMediaCache/VIMediaCache.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VIMediaCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -448,7 +1129,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -456,44 +1137,71 @@
 			};
 			name = Debug;
 		};
-		A6083640DB324A9481A51873FAA5606D /* Debug */ = {
+		244E8702DCEE95BB4B9729EFEDFE31AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18578ED4AAAE98C3ECEC0E3D8BC271F /* Pods-GMStoryVideoPlayer_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3971AC8A0D0625D2ABED21FAFD2305E5 /* SpinKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SpinKit/SpinKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Tests/Pods-GMStoryVideoPlayer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GMStoryVideoPlayer_Tests;
+				MODULEMAP_FILE = "Target Support Files/SpinKit/SpinKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SpinKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		D8BB04A4F5435416ADC78C92D2FFBC0A /* Debug */ = {
+		3F83ECEBC68D7F3E7FAAA9D18E624254 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 030A86AE0F3EC3DE16F6DAE7428615EB /* Pods-GMStoryVideoPlayer_Example.debug.xcconfig */;
+			baseConfigurationReference = 1C9C91F958DC8F62AFFBDC7395617AEE /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9E94639AD0BE68462A7BC05336D5704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A083CA439A0057DDDDCF3A726AB9C080 /* Pods-GMStoryVideoPlayer_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -508,7 +1216,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Example/Pods-GMStoryVideoPlayer_Example.modulemap";
@@ -526,7 +1234,38 @@
 			};
 			name = Debug;
 		};
-		E2CFA0884BF6C121B5AE66AABF9E8F9F /* Debug */ = {
+		BE17314A21FD12EF052ECFE58D6C84E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9C91F958DC8F62AFFBDC7395617AEE /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D33AF680A40F1F1D1B88C1E5BEFE6D18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CC69546B82ABAD2C948BAD718B7FD33 /* GMStoryVideoPlayer.xcconfig */;
 			buildSettings = {
@@ -544,7 +1283,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GMStoryVideoPlayer/GMStoryVideoPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GMStoryVideoPlayer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GMStoryVideoPlayer/GMStoryVideoPlayer.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -557,77 +1296,7 @@
 			};
 			name = Debug;
 		};
-		E4364C27167B40FD70909A65F446AFA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F653939C8E881CBB0C56D6926E247F41 /* Pods-GMStoryVideoPlayer_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Example/Pods-GMStoryVideoPlayer_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GMStoryVideoPlayer_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F7FC73E814313AC60B69CBF47D2E35B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5877880520477F6A050DA909E0F9250B /* Pods-GMStoryVideoPlayer_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GMStoryVideoPlayer_Tests/Pods-GMStoryVideoPlayer_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GMStoryVideoPlayer_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FEB74A37FDCF20F9BBC962F11743A09B /* Release */ = {
+		E4ADCEBC6CDA0B1275EECF7034046BBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CC69546B82ABAD2C948BAD718B7FD33 /* GMStoryVideoPlayer.xcconfig */;
 			buildSettings = {
@@ -645,7 +1314,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GMStoryVideoPlayer/GMStoryVideoPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GMStoryVideoPlayer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GMStoryVideoPlayer/GMStoryVideoPlayer.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -657,42 +1326,162 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		E64BBF0A4B6B5123B39F59895120A682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3971AC8A0D0625D2ABED21FAFD2305E5 /* SpinKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SpinKit/SpinKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpinKit/SpinKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SpinKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F97791EF689B689CEF421BACCADACE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64313677B942283E8360096F235C461D /* VIMediaCache.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VIMediaCache/VIMediaCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VIMediaCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VIMediaCache/VIMediaCache.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VIMediaCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01AC701EB42E0D45DB504662C021FEFB /* Build configuration list for PBXNativeTarget "Pods-GMStoryVideoPlayer_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8BB04A4F5435416ADC78C92D2FFBC0A /* Debug */,
-				E4364C27167B40FD70909A65F446AFA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1B25136FF566A63C9B846A8B0910AEC0 /* Build configuration list for PBXNativeTarget "Pods-GMStoryVideoPlayer_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6083640DB324A9481A51873FAA5606D /* Debug */,
-				F7FC73E814313AC60B69CBF47D2E35B5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		945C49117D95BE68EA8859AAE78E5A4E /* Build configuration list for PBXNativeTarget "GMStoryVideoPlayer" */ = {
+		3228B8A65899711B651AD14992A037A4 /* Build configuration list for PBXNativeTarget "SpinKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2CFA0884BF6C121B5AE66AABF9E8F9F /* Debug */,
-				FEB74A37FDCF20F9BBC962F11743A09B /* Release */,
+				E64BBF0A4B6B5123B39F59895120A682 /* Debug */,
+				244E8702DCEE95BB4B9729EFEDFE31AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622FED42A52E2985B96C665616EAD361 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE17314A21FD12EF052ECFE58D6C84E1 /* Debug */,
+				3F83ECEBC68D7F3E7FAAA9D18E624254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B96F4F3D90FFF729F0CD672B2608E51 /* Build configuration list for PBXNativeTarget "Pods-GMStoryVideoPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E94639AD0BE68462A7BC05336D5704 /* Debug */,
+				021EA39E472D7432A7CA822BAB7BD5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4CBA3673D0F9B25465E8A4EDBF558 /* Build configuration list for PBXNativeTarget "GMStoryVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33AF680A40F1F1D1B88C1E5BEFE6D18 /* Debug */,
+				E4ADCEBC6CDA0B1275EECF7034046BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C175274149264EF57556A3EF0F39D8 /* Build configuration list for PBXNativeTarget "VIMediaCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97791EF689B689CEF421BACCADACE5D /* Debug */,
+				084649C92F7193DFBC7E3B0189B72033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
