@@ -217,9 +217,7 @@ static NSString *kURLKey = @"kURLKey";
     if (!attributes) {
         return NO;
     }
-    
-    long long fileSize = attributes.fileSize;
-    NSRange range = NSMakeRange(0, fileSize);
+    NSRange range = NSMakeRange(0, attributes.fileSize);
     
     VICacheConfiguration *configuration = [VICacheConfiguration configurationWithFilePath:filePath];
     configuration.url = url;
@@ -234,9 +232,9 @@ static NSString *kURLKey = @"kURLKey";
     }
     contentInfo.contentType = contentType;
     
-    contentInfo.contentLength = fileSize;
+    contentInfo.contentLength = attributes.fileSize;
     contentInfo.byteRangeAccessSupported = YES;
-    contentInfo.downloadedContentLength = fileSize;
+    contentInfo.downloadedContentLength = attributes.fileSize;
     configuration.contentInfo = contentInfo;
     
     [configuration addCacheFragment:range];

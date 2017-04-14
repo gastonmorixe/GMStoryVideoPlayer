@@ -2,35 +2,24 @@ PODS:
   - GMStoryVideoPlayer (0.1.0):
     - SDWebImage
     - SpinKit
-    - VIMediaCache
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
   - SpinKit (1.2.0)
-  - VIMediaCache (0.2)
 
 DEPENDENCIES:
   - GMStoryVideoPlayer (from `../`)
   - SDWebImage
-  - VIMediaCache (from `https://github.com/vitoziv/VIMediaCache.git`)
 
 EXTERNAL SOURCES:
   GMStoryVideoPlayer:
     :path: "../"
-  VIMediaCache:
-    :git: https://github.com/vitoziv/VIMediaCache.git
-
-CHECKOUT OPTIONS:
-  VIMediaCache:
-    :commit: f5d42f815351d31f99eeba91185321a590284c99
-    :git: https://github.com/vitoziv/VIMediaCache.git
 
 SPEC CHECKSUMS:
-  GMStoryVideoPlayer: 869e6e0fe7e265415db0aa0dc41493f59c42fa70
+  GMStoryVideoPlayer: 1b5cc9626d8270e6593a3139a6ef1b178d4a2137
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SpinKit: 65906a8b534a4e14cbfd3f8b0b6c329131faef4a
-  VIMediaCache: a7e29ab8bd3b48cca19abf112b5b5be4b50ed1d5
 
-PODFILE CHECKSUM: 91bfde85fe7c1799173ded653a07e3bad51a7dd5
+PODFILE CHECKSUM: a162a8df507dda1f0932d174e5ab12c78f69ee70
 
 COCOAPODS: 1.2.0

@@ -1,7 +1,6 @@
 use_frameworks!
 
 target 'GMStoryVideoPlayer_Example' do
-  pod 'VIMediaCache', :git => 'https://github.com/vitoziv/VIMediaCache.git'
   pod 'SDWebImage'
   pod 'GMStoryVideoPlayer', :path => '../'
 end

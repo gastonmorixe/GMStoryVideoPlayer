@@ -8,7 +8,7 @@
 
 #import "GMStoryViewController.h"
 
-@import VIMediaCache;
+#import "VIMediaCache.h"
 
 @interface GMStoryViewController ()
 

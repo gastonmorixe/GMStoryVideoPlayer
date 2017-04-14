@@ -9,7 +9,7 @@
 #import "GMStoryViewController.h"
 @import AVFoundation;
 @import SDWebImage;
-@import VIMediaCache;
+#import "VIMediaCache.h"
 
 @interface GMVideoViewController ()
 
